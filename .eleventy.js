@@ -1,13 +1,18 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/site/assets/css/landing-page.css");
+
+  eleventyConfig.addPassthroughCopy({
+    "src/site/_includes/css/*.css" : "assets/css",
+  });
 
   return {
     dir: {
       input: "src/site",
-      output: "public",
+      output: "dist",
       includes: "_includes",
-      layouts: "_layouts",
+      layouts: "_includes/layouts",
       data: "_data"
     }
   }
 }
+
+

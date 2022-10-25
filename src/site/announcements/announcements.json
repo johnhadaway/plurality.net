@@ -1,0 +1,5 @@
+{
+  "layout": "announcement",
+  "permalink": "/announcements/{{ title | slug }}/",
+  "tags": "announcements"
+}
