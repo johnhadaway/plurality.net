@@ -4,12 +4,7 @@
       {{ site.name }}{% if title %} | {{ title }}{% endif %}
     </title>
     <meta charset="utf-8">
-    <meta name="description" content="
-      {% if description %}
-        {{ page.description }}
-      {% else %}
-        {{ site.description }}
-      {% endif %}">
+    <meta name="description" content="{% if description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% block css %}
       <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     {% endblock %}
