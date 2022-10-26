@@ -11,7 +11,8 @@
   {% endblock %}
 
   <body>
-    <div id="landing-container">
+    {% block breakNav %}{% endblock %}
+    <div id="base-container">
       <div id="left-col">{% block left %}{% endblock %}</div>
       <div id="right-col">{% block right %}{% endblock %}</div>
     </div>

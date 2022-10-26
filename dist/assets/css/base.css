@@ -1,4 +1,9 @@
-#landing-container {
+html, body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#base-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

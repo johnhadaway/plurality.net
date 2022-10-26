@@ -1,6 +1,1 @@
-@import './landing-page.css';
-
-html, body {
-  overflow: hidden;
-  margin: 0;
-}
+@import './base.css';
