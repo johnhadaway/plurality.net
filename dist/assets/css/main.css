@@ -1,1 +1,18 @@
 @import './base.css';
+@import './home.css';
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --primary-font-size: 1.1rem;
+  --secondary-font-size: 1.4rem;
+  --tertiary-font-size: 5rem;
+  --parent-padding: 7.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

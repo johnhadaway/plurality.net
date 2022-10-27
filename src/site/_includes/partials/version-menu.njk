@@ -1,0 +1,16 @@
+{%- from 'components/version-menu-item.njk' import versionMenuItem -%}
+
+<ol id="version-ol">
+  {% for version in collections.versions %}
+    <li class="version-item">
+      {{ versionMenuItem( 
+        githubLink = version.data.githubLink, 
+        dayStarted = version.data.dayStarted,
+        monthStarted = version.data.monthStarted,
+        yearStarted = version.data.yearStarted,
+        numContributors = version.data.numContributors,
+        pageTitle = version.data.title,
+        pageUrl = version.data.permalink) }}
+    </li>
+  {% endfor %}
+</ol>

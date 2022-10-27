@@ -1,21 +1,26 @@
 <html>
-  {% block header %}
-    <head>
-      <title>
-        {{ site.name }}{% if title %} | {{ title }}{% endif %}
-      </title>
-      <meta charset="utf-8">
-      <meta name="description" content="{% if description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    </head>
-  {% endblock %}
 
-  <body>
-    {% block breakNav %}{% endblock %}
-    <div id="base-container">
-      <div id="left-col">{% block left %}{% endblock %}</div>
-      <div id="right-col">{% block right %}{% endblock %}</div>
+{% block header -%}
+  <head>
+    <title>{{ site.name }}{% if title %} | {{ title }}{% endif %}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="{% if description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  </head>
+{%- endblock %}
+
+<body>
+  {%- block breakNav -%}{%- endblock %}
+  <div id="base-container">
+    <div id="left-col">
+      {% block left %}{% endblock %}
     </div>
-  </body>
-  </html>
+    <div id="right-col">
+      {% block right %}{% endblock %}
+    </div>
+  </div>  
+  {%- block footer -%}{%- endblock -%}
+</body>
+
+</html>
 

@@ -1,0 +1,96 @@
+#break-nav {
+  position: fixed;
+  top: var(--parent-padding);
+  left: var(--parent-padding);
+  z-index: 100;
+}
+
+#break-nav > a {
+  padding-right: calc(var(--parent-padding) / 2);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-size: var(--secondary-font-size);
+}
+
+#hero {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#hero > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+#version-menu {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#version-ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#version-ol > * {
+  text-transform: uppercase;
+}
+
+#version-ol > li {
+  display: flex;
+  height: 5em;
+  box-sizing: border-box;
+  margin-bottom: calc(5rem);
+  align-items: flex-start;
+  list-style: none;
+  padding-left: var(--parent-padding);
+}
+
+#version-ol > li > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#version-ol > li > div > span > * {
+  padding-right: calc(var(--parent-padding) * 2);
+}
+
+#version-ol > li > div > .version-title {
+  max-width: none;
+  word-break: break-all;
+  word-wrap: break-all;
+  white-space: pre-wrap;
+}
+
+.version-github-link, .version-github-link > a, .version-date-forked, .version-num-contributors {
+  font-size: var(--primary-font-size);
+}
+
+.version-github-link > a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.version-title {
+  font-size: calc(var(--tertiary-font-size));
+  line-height: calc(var(--tertiary-font-size));
+  margin-block-start: 0;
+  margin-block-end: 0;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+.version-title > a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}

@@ -1,20 +1,21 @@
 html, body {
   overflow: hidden;
-  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #base-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 #left-col {
   width: 60%;
   height: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #left-col::-webkit-scrollbar {
@@ -27,3 +28,4 @@ html, body {
   background-color: #000;
   overflow: hidden;
 }
+

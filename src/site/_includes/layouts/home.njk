@@ -1,16 +1,26 @@
 {% extends "layouts/base.njk" %}
 
 {% block breakNav %}
+  <div id="break-nav">
+    <a href="{{ site.baseurl }}/info">Info</a>
+    <a href="{{ site.baseurl }}/announcements">Announcements</a>
+  </div>
 {% endblock %}
 
 {% block left %}
-<div id="hero">
-</div>
-<div id="version-menu">
-</div>
+  <div id="hero">
+    {%- include 'partials/hero.njk' -%}
+  </div>
+  <div id="version-menu">
+    {%- include 'partials/version-menu.njk' -%}
+  </div>
 {% endblock %}
 
 {% block right %}
-<div id="interactive-type">
-</div>
+  <div id="interactive-type">
+  </div>
+{% endblock %}
+
+{% block footer %}
+  {%- include 'partials/footer.njk' -%}
 {% endblock %}
