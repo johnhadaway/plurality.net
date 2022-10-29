@@ -1,0 +1,27 @@
+{% macro renderNav(leftData, centreData, rightData) %}
+
+<div id="nav">
+  {% if leftData %}
+    <div id="nav-left">
+      {% for item in leftData %}
+        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if centreData %}
+    <div id="nav-centre">
+      {% for item in centreData %}
+        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if rightData %}
+    <div id="nav-right">
+      {% for item in rightData %}
+        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+{% endmacro %}

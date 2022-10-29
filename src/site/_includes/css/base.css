@@ -1,3 +1,4 @@
+/* elements in the base layout */
 html, body {
   overflow: hidden;
   height: 100%;
@@ -13,7 +14,7 @@ html, body {
 }
 
 #left-col {
-  width: 60%;
+  width: 50%;
   height: 100%;
   overflow-y: scroll;
 }
@@ -23,9 +24,8 @@ html, body {
 }
 
 #right-col {
-  width: 40%;
+  width: 50%;
   height: 100%;
-  background-color: #000;
   overflow: hidden;
 }
 

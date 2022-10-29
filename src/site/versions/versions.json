@@ -1,5 +1,5 @@
 {
-  "layout": "version",
+  "layout": "version-content",
   "permalink": "/versions/{{ title | slug }}/",
   "tags": "versions"
 }

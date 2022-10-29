@@ -1,10 +1,12 @@
 {% extends "layouts/base.njk" %}
 
-{% block breakNav %}
-  <div id="break-nav">
-    <a href="{{ site.baseurl }}/info">Info</a>
-    <a href="{{ site.baseurl }}/announcements">Announcements</a>
-  </div>
+{% block headerScripts %}
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/interactive-type.js"></script>
+{% endblock %}
+
+{% block topNav %}
+  {% include "partials/landing-top-nav.njk" %}
 {% endblock %}
 
 {% block left %}

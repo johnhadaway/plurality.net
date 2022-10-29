@@ -1,8 +1,15 @@
 ---
 title: Plurality
+language: "English"
 githubLink: www
-dayStarted: "01"
-monthStarted: "08"
-yearStarted: "2022"
 numContributors: 30
+dateStartedString: {
+  day: "01",
+  month: "08",
+  year: "2022"
+}
+translations: {
+  contributors: "contributors",
+  contribute: "contribute"
+}
 ---

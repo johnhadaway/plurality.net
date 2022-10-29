@@ -1,14 +1,17 @@
-{%- from 'components/version-menu-item.njk' import versionMenuItem -%}
+{%- from 'macros/version-menu-item.njk' import versionMenuItem -%}
 
 <ol id="version-ol">
   {% for version in collections.versions %}
     <li class="version-item">
       {{ versionMenuItem( 
         githubLink = version.data.githubLink, 
-        dayStarted = version.data.dayStarted,
-        monthStarted = version.data.monthStarted,
-        yearStarted = version.data.yearStarted,
+        dayStarted = version.data.dateStartedString.day,
+        monthStarted = version.data.dateStartedString.month,
+        yearStarted = version.data.dateStartedString.year,
         numContributors = version.data.numContributors,
+        language = version.data.language,
+        contributorsTranslated = version.data.translations.contributors,
+        contributeTranslated = version.data.translations.contribute,
         pageTitle = version.data.title,
         pageUrl = version.data.permalink) }}
     </li>
