@@ -1,8 +1,8 @@
 // INTERACTIVE TYPE
 const interactiveType = (p) => {
-  let gridSize = 4;
+  let gridSize = 5;
   let points = [];
-  let mutationRange = [-50, 50]
+  let mutationRange = [-80, 80]
   let initialMutationLowerBound = mutationRange[0];
 
   p.preload = function() {
@@ -15,7 +15,7 @@ const interactiveType = (p) => {
 
     p.background(250);
     p.textFont(font);
-    p.textSize(270);
+    p.textSize(250);
     p.textAlign(p.CENTER, p.CENTER);
     p.text('數位', p.width/2, p.height/2);
 
@@ -37,23 +37,23 @@ const interactiveType = (p) => {
     for (let i = 0; i < points.length; i++) {
       let x = points[i].x;
       let y = points[i].y;
-      x += p.random(-mutationAmt,mutationAmt) * p.random(2);
-      y += p.random(-mutationAmt,mutationAmt) * p.random(3);
+      x += p.random(-mutationAmt,mutationAmt) * p.random(1.5);
+      y += p.random(-mutationAmt,mutationAmt) * p.random(1.5);
   
       p.stroke(255);
       p.fill(0);
-      p.circle(x, y, gridSize);
+      p.circle(x, y, gridSize/2);
     }
   }
 
   p.mouseWheel = function(event) {
     if (event.delta > 0 && mutationRange[0] < 0) {
       mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
-      gridSize += 0.1;
+      gridSize += 0.2;
     } 
     if (event.delta < 0 && gridSize > 1 && mutationRange[0] > initialMutationLowerBound) {
       mutationRange = [mutationRange[0] - 1, mutationRange[1] + 1];
-      gridSize -= 0.1;
+      gridSize -= 0.2;
     }
   }
 }
