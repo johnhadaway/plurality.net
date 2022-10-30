@@ -15,7 +15,7 @@ const interactiveType = (p) => {
 
     p.background(250);
     p.textFont(font);
-    p.textSize(225);
+    p.textSize(270);
     p.textAlign(p.CENTER, p.CENTER);
     p.text('數位', p.width/2, p.height/2);
 
