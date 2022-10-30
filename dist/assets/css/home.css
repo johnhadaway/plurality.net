@@ -1,104 +1,91 @@
-/* hero */
-#hero {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
+/* ELEMENTS DEFINED IN LAYOUTS/HOME */
 
-#hero > div {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: calc(var(--tertiary-font-size) * 2);
-  color: #000;
-}
-
-
-
-/* version menu div */
+/* VERSION MENU DIV */
 #version-menu {
-  position: relative;
   height: 100%;
   width: 100%;
-  margin-top: 10%;
 }
 
-#version-ol {
+#version-menu > #version-ol {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  padding: 25vh 0 0 calc(var(--parent-padding) * 2);
 }
 
-#version-ol > * {
+#version-menu > #version-ol > * {
   text-transform: uppercase;
 }
 
-#version-ol > .version-item {
+#version-menu > #version-ol > .version-item {
   display: flex;
   height: 5em;
   box-sizing: border-box;
-  margin-bottom: calc(5rem);
-  align-items: center;
-  justify-content: center;
+  margin-bottom: calc(var(--tertiary-font-size));
   list-style: none;
 }
 
-#version-ol > .version-item > div {
+#version-menu > #version-ol > .version-item > div {
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
   flex-direction: column;
-  justify-content: center;
 }
 
-#version-ol > .version-item > div > span > *:not(:last-child) {
+#version-menu > #version-ol > .version-item > div > span > *:not(:last-child) {
   padding-right: calc(var(--parent-padding));
 }
 
-#version-ol > .version-item > div > .version-title {
+#version-menu > #version-ol > .version-item > div > .version-title {
   max-width: none;
   word-break: break-all;
   word-wrap: break-all;
   white-space: pre-wrap;
 }
 
-#version-ol > .version-item > div > .version-meta {
+#version-menu > #version-ol > .version-item > div > .version-meta {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
-#version-ol > .version-item > div > .version-meta > span {
+#version-menu > #version-ol > .version-item > div > .version-meta > span {
   font-size: var(--primary-font-size);
   text-decoration: none;
   color: var(--secondary-color);
+  vertical-align: top;
+  text-decoration: none;
+  line-height: var(--primary-font-size);
 }
 
-#version-ol > .version-item > div > .version-meta > span > a {
+#version-menu > #version-ol > .version-item > div > .version-meta > span > a {
   text-decoration: none;
   color: var(--secondary-color);
+  display: inline-block;
+  line-height: var(--primary-font-size);
 }
 
-#version-ol > .version-item > div > .version-title {
+#version-menu > #version-ol > .version-item > div > .version-title {
   font-size: calc(var(--tertiary-font-size));
   line-height: calc(var(--tertiary-font-size));
-  vertical-align: text-top;
-  text-align: center;
+  vertical-align: top;
+  text-align: left;
+  margin-left: -2px;
 }
 
-#version-ol > .version-item > div > .version-title > a {
+#version-menu > #version-ol > .version-item > div > .version-title > a {
   text-decoration: none;
   color: var(--secondary-color);
+  display: inline-block;
 }
 
 
-/* interactive type div */
+/* INTERACTIVE TYPE DIV */
 #interactive-type {
-  position: relative;
+  position: fixed;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
 #interactive-type > canvas {

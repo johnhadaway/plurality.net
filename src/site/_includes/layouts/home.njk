@@ -9,16 +9,13 @@
   {% include "partials/landing-top-nav.njk" %}
 {% endblock %}
 
-{% block left %}
-  <div id="hero">
-    {%- include 'partials/hero.njk' -%}
-  </div>
+{% block mainColContent %}
   <div id="version-menu">
     {%- include 'partials/version-menu.njk' -%}
   </div>
 {% endblock %}
 
-{% block right %}
+{% block extraneousContent %}
   <div id="interactive-type">
   </div>
 {% endblock %}

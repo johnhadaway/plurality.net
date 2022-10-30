@@ -1,49 +1,106 @@
-let gridSize = 3.5;
-let points = [];
-let font;
+// INTERACTIVE TYPE
+const interactiveType = (p) => {
+  let gridSize = 4;
+  let points = [];
+  let mutationRange = [-50, 50]
+  let initialMutationLowerBound = mutationRange[0];
 
-function preload() {
-  font = 'monospace';
-}
+  p.preload = function() {
+    font = 'monospace';
+  }
 
-function setup() {
-  var container = document.getElementById('interactive-type');
-  let canvas = createCanvas(container.offsetWidth, container.offsetHeight);
-  canvas.parent("interactive-type");
+  p.setup = function() {
+    var container = document.getElementById('interactive-type');
+    p.createCanvas(container.offsetWidth, container.offsetHeight);
 
-  background(255);
-  textFont(font);
-  textSize(225);
-  textAlign(CENTER, CENTER);
-  fill(0);
-  noStroke();
-  text('數位', width/2,height/2);
+    p.background(250);
+    p.textFont(font);
+    p.textSize(225);
+    p.textAlign(p.CENTER, p.CENTER);
+    p.text('數位', p.width/2, p.height/2);
 
-  loadPixels();
-  for (let y = 0; y < height; y += gridSize) {
-    for (let x = 0; x < width; x += gridSize) {
-      let r = get(x, y)[0];
-      if (r < 128) {
-        points.push(createVector(x,y));
+    p.loadPixels();
+    for (let y = 0; y < p.height; y += gridSize) {
+      for (let x = 0; x < p.width; x += gridSize) {
+        let r = p.get(x, y)[0];
+        if (r < 128) {
+          points.push(p.createVector(x,y));
+        }
       }
+    }
+  }
+
+  p.draw = function() {
+    p.background(0);
+    let mutationAmt = p.map(p.mouseX, 0, p.width, mutationRange[0], mutationRange[1], true);
+
+    for (let i = 0; i < points.length; i++) {
+      let x = points[i].x;
+      let y = points[i].y;
+      x += p.random(-mutationAmt,mutationAmt) * p.random(2);
+      y += p.random(-mutationAmt,mutationAmt) * p.random(3);
+  
+      p.stroke(255);
+      p.fill(0);
+      p.circle(x, y, gridSize);
+    }
+  }
+
+  p.mouseWheel = function(event) {
+    if (event.delta > 0 && mutationRange[0] < 0) {
+      mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
+      gridSize += 0.1;
+    } 
+    if (event.delta < 0 && gridSize > 1 && mutationRange[0] > initialMutationLowerBound) {
+      mutationRange = [mutationRange[0] - 1, mutationRange[1] + 1];
+      gridSize -= 0.1;
     }
   }
 }
 
-function draw() {
-  background(255);
 
-  let mutationAmt = map(mouseX, 0, width/2, -15, 15, true);
 
-  for (let i = 0; i < points.length; i++) {
-    let x = points[i].x;
-    let y = points[i].y;
-    x += random(-mutationAmt,mutationAmt);
-    y += random(-mutationAmt,mutationAmt);
+// PLURALITY LOGO
+const pluralityLogo = (p) => {
+  let gridSize = 4;
+  let points = [];  
 
-    stroke(0);
-    noFill();
-    square(x+2,y+2, gridSize);
+  p.preload = function() {
+    font = 'monospace';
+  }
+
+  p.setup = function() {
+    var container = document.getElementById('hero');
+    p.createCanvas(container.offsetWidth, container.offsetHeight);
+
+    p.background(255);
+    p.textFont(font);
+    p.textSize(150);
+    p.textAlign(p.CENTER, p.CENTER);
+    p.text('PLURALITY', p.width/2, p.height/2);
+
+    p.loadPixels();
+    for (let y = 0; y < p.height; y += gridSize) {
+      for (let x = 0; x < p.width; x += gridSize) {
+        let r = p.get(x, y)[0];
+        if (r < 128) {
+          points.push(p.createVector(x,y));
+        }
+      }
+    }
+  }
+
+  p.draw = function() {
+    p.background(0);
+
+    for (let i = 0; i < points.length; i++) {
+      p.stroke(255);
+      p.fill(0);
+      p.circle(points[i].x, points[i].y, gridSize);
+    }
+    
+    gridSize = 10;
   }
 }
 
+let interactiveTypeSketch = new p5(interactiveType, 'interactive-type');

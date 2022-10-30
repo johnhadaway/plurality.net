@@ -1,3 +1,6 @@
+
+/* ELEMENTS RENDERED USING MACROS/NAV */
+
 #nav {
   position: fixed;
   top: calc(var(--parent-padding));

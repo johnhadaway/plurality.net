@@ -1,8 +1,10 @@
-/* elements in the base layout */
+/* ELEMENTS DEFINED IN LAYOUTS/BASE */
+
 html, body {
   overflow: hidden;
   height: 100%;
   width: 100%;
+  background-color: var(--primary-color);
 }
 
 #base-container {
@@ -13,19 +15,17 @@ html, body {
   width: 100%;
 }
 
-#left-col {
-  width: 50%;
-  height: 100%;
+#main-col {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
   overflow-y: scroll;
-}
-
-#left-col::-webkit-scrollbar {
-  display: none;
-}
-
-#right-col {
-  width: 50%;
+  z-index: 100;
   height: 100%;
-  overflow: hidden;
+  width: 100%;
+}
+
+#main-col::-webkit-scrollbar {
+  display: none;
 }
 

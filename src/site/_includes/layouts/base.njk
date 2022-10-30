@@ -8,21 +8,19 @@
       <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     {%- endblock %}
     {% block headerScripts -%}{%- endblock %}
-</head>
+  </head>
 
 
-<body>
-  {%- block topNav -%}{%- endblock %}
-  <div id="base-container">
-    <div id="left-col">
-      {% block left %}{% endblock %}
-    </div>
-    <div id="right-col">
-      {% block right %}{% endblock %}
-    </div>
-  </div>  
-  {%- block footer -%}{%- endblock -%}
-</body>
+  <body>
+    {%- block topNav -%}{%- endblock %}
+    <div id="base-container">
+      <div id="main-col">
+        {% block mainColContent %}{% endblock %}
+      </div>
+      {% block extraneousContent %}{% endblock %}
+    </div>  
+    {%- block footer -%}{%- endblock -%}
+  </body>
 
 
 </html>

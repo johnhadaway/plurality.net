@@ -6,11 +6,11 @@ pageTitle, pageUrl) %}
   <div>
     <p class="version-title"><a href="{{ pageUrl }}">{{ pageTitle }}</a></p>
     <span class="version-meta">
-      <span>[ {{ dayStarted }}.{{ monthStarted }}.{{ yearStarted }} – ]</span>
-      <span>[ {{ numContributors }} {{ contributorsTranslated }} ]</span>
-      <span>[ {{ language }} ]</span>
-      <span><a href="{{ githubLink }}">{{ contributeTranslated }} &#8599;&#xFE0E;</a></span>
+      {% if dayStarted %}<span>[ {{ dayStarted }}.{{ monthStarted }}.{{ yearStarted }} – ]</span>{% endif %}
+      {% if numContributors %}<span>[ {{ numContributors }} {{ contributorsTranslated }} ]</span>{% endif %}
+      {% if language %}<span>[ {{ language }} ]</span>{% endif %}
+      {% if githubLink %}<span><a href="{{ githubLink }}">{{ contributeTranslated }} &#8599;&#xFE0E;</a></span>{% endif %}
     </span>
-  </div>
+  </div>xw
 
 {% endmacro %}

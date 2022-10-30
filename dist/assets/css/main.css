@@ -2,22 +2,23 @@
 @import './home.css';
 @import './nav.css';
 
-/* root variables, for use in modules where appropriate */
+/* ROOT VARIABLES, FOR USE IN MODULES WHERE APPROPRIATE */
 :root {
-  --primary-color: #fff;
-  --secondary-color: #000;
-  --primary-font-size: 1rem;
-  --secondary-font-size: 1.2rem;
-  --tertiary-font-size: 5rem;
-  --parent-padding: 7.5px;
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --primary-font-size: 10px;
+  --secondary-font-size: 14px;
+  --tertiary-font-size: 45px;
+  --parent-padding: 10px;
   --font-family: 'Helvetica';
 }
 
-/* universal style declarations */
+/* UNIVERSAL STYLE DECLARATIONS */
 * {
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-family);
+  color: var(--secondary-color);
 }
