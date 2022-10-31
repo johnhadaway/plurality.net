@@ -1,0 +1,43 @@
+/* ELEMENTS RENDERED USING LAYOUTS/VERSION */
+
+#version-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+#version-wrapper > #version-content {
+  width: 60%;
+  padding: var(--padding-step-5) var(--padding-step-4) 0 var(--padding-step-5);
+}
+
+#version-wrapper > #version-index {
+  width: 40%;
+  padding: var(--padding-step-5) var(--padding-step-4) 0 var(--padding-step-4);
+}
+
+#version-wrapper > #version-index > #version-data {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--padding-step-3);
+}
+
+#version-wrapper > #version-index > #version-data > #version-data-title {
+  font-size: var(--font-size-step-3);
+  line-height: var(--font-size-step-3);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#version-wrapper > #version-content > #version-body {
+  font-size: var(--font-size-step-1);
+}
+
+#version-wrapper > #version-content > #version-body > p {
+  margin-bottom: var(--padding-step-1);
+}
+
+#version-wrapper > #version-content > #version-body > h1, #version-wrapper > #version-content > #version-body > h2, #version-wrapper > #version-content > #version-body > h3 {
+  margin-bottom: var(--padding-step-2);
+}

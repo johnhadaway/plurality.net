@@ -10,7 +10,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 0 calc(var(--parent-padding) * 5);
+  padding: 25vh 0 0 var(--padding-step-4);
 }
 
 #version-menu > #version-ol > * {
@@ -21,7 +21,7 @@
   display: flex;
   height: 5em;
   box-sizing: border-box;
-  margin-bottom: calc(var(--tertiary-font-size));
+  margin-bottom: calc(var(--font-size-step-5));
   list-style: none;
 }
 
@@ -31,7 +31,7 @@
 }
 
 #version-menu > #version-ol > .version-item > div > span > *:not(:last-child) {
-  padding-right: calc(var(--parent-padding));
+  padding-right: var(--padding-step-2);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-title {
@@ -49,24 +49,24 @@
 }
 
 #version-menu > #version-ol > .version-item > div > .version-meta > span {
-  font-size: var(--secondary-font-size);
+  font-size: var(--font-size-step-1);
   text-decoration: none;
   color: var(--secondary-color);
   vertical-align: top;
   text-decoration: none;
-  line-height: var(--secondary-font-size);
+  line-height: var(--font-size-step-1);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-meta > span > a {
   text-decoration: none;
   color: var(--secondary-color);
   display: inline-block;
-  line-height: var(--primary-font-size);
+  line-height: var(--font-size-step-1);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-title {
-  font-size: calc(var(--tertiary-font-size));
-  line-height: calc(var(--tertiary-font-size));
+  font-size: calc(var(--font-size-step-5));
+  line-height: calc(var(--font-size-step-5));
   vertical-align: top;
   text-align: left;
   margin-left: -2px;

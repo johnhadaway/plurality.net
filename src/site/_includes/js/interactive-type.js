@@ -9,14 +9,14 @@ const interactiveType = (p) => {
     font = 'monospace';
   }
 
+  // black background
   p.setup = function() {
     var container = document.getElementById('interactive-type');
     p.createCanvas(container.offsetWidth, container.offsetHeight);
 
     p.background(255);
     p.textFont(font);
-    p.textSize(250);
-    p.fill(0);
+    p.textSize(255);
     p.textAlign(p.CENTER, p.CENTER);
     p.text('數位', p.width/2, p.height/2);
 

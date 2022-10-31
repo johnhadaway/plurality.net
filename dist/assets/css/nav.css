@@ -3,7 +3,7 @@
 
 #nav {
   position: fixed;
-  top: calc(var(--parent-padding));
+  top: var(--padding-step-2);
   left: 0;
   width: 100%;
   z-index: 100;
@@ -15,12 +15,12 @@
   height: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-left: calc(var(--parent-padding));
+  padding-left: var(--padding-step-2);
 }
 
 #nav > #nav-left > a {
   align-items: left;
-  margin-right: calc(var(--parent-padding)/2);
+  margin-right: var(--padding-step-1);
 }
 
 #nav > #nav-centre {
@@ -32,7 +32,7 @@
 
 #nav > #nav-centre > a {
   align-items: center;
-  margin-right: calc(var(--parent-padding)/2);
+  margin-right: var(--padding-step-1);
 }
 
 #nav > #nav-right {
@@ -40,18 +40,18 @@
   height: 100%;
   display: flex;
   justify-content: flex-end;
-  padding-right: calc(var(--parent-padding));
+  padding-right: var(--padding-step-2);
 }
 
 #nav > #nav-right > a {
   align-items: right;
-  margin-left: calc(var(--parent-padding)/2);
+  margin-left: var(--padding-step-1);
 }
 
 #nav > * > a {
   display: flex;
   color: var(--secondary-color);
   text-decoration: none;
-  font-size: var(--primary-font-size);
+  font-size: var(--font-size-step-1);
   text-transform: uppercase;
 }

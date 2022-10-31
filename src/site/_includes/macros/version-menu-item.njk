@@ -1,10 +1,10 @@
 {% macro versionMenuItem(githubLink, dayStarted, yearStarted, monthStarted, 
 numContributors, language, 
-contributorsTranslated, contributeTranslated,
+contributorsTranslated, contributeTranslated, pluralityTranslated,
 pageTitle, pageUrl) %}
 
   <div>
-    <p class="version-title"><a href="{{ pageUrl }}">{{ pageTitle }}</a></p>
+    <p class="version-title"><a href="{{ pageUrl }}">{{ pluralityTranslated }}</a></p>
     <span class="version-meta">
       {% if dayStarted %}<span>[ {{ dayStarted }}.{{ monthStarted }}.{{ yearStarted }} – ]</span>{% endif %}
       {% if numContributors %}<span>[ {{ numContributors }} {{ contributorsTranslated }} ]</span>{% endif %}

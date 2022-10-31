@@ -7,10 +7,16 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
-  --primary-font-size: 10px;
-  --secondary-font-size: 10px;
-  --tertiary-font-size: 50px;
-  --parent-padding: 10px;
+  --font-size-step-1: 1rem;
+  --font-size-step-2: 1.2rem;
+  --font-size-step-3: 2.5rem;
+  --font-size-step-4: 3.5rem;
+  --font-size-step-5: 5rem;
+  --padding-step-1: 5px;
+  --padding-step-2: 10px;
+  --padding-step-3: 25px;
+  --padding-step-4: 50px;
+  --padding-step-5: 100px;
   --font-family: 'Helvetica';
 }
 

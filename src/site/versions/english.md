@@ -1,5 +1,5 @@
 ---
-title: Plurality
+title: "Plurality: Technology for Collaborative Diversity and Democracy"
 githubLink: 
 numContributors: 30
 dateStartedString: {
@@ -9,7 +9,8 @@ dateStartedString: {
 }
 translations: {
   contributors: "contributors",
-  contribute: "contribute"
+  contribute: "contribute",
+  plurality: "plurality"
 }
 language: {
   en: "english",
@@ -17,3 +18,22 @@ language: {
   locale: "english"
 }
 ---
+
+### OVERVIEW
+
+Technology and democracy are at war: technology bolsters authoritarian surveillance and corrodes democratic institutions, while democracies fight back with constraining regulation and public sector conservatism. Yet this conflict is not inevitable; it is a choice we have made to invest in anti-democratic technologies, such as Artificial Intelligence (AI) and Cryptocurrencies. A few places, such as the Ethereum community, Estonia, the state of Colorado and especially Taiwan, have instead focused on technologies that empower diverse collaboration and have seen democracy and technology flourish together. This book, by the leaders of this new paradigm of Plurality, shows for the first time how every technologist, policymaker, business leader and activist can harness it to build a more collaborative, diverse, and productively democratic world.
+
+When Uber arrived in Taiwan, its presence was divisive, just as it has been in much of the world. But rather than social media pouring fuel on this flame, the vTaiwan platform that one of us developed as a minister there empowered citizens opining on the issue to have a thoughtful, deliberative conversation with thousands of participants on how ride hailing should be regulated. This technology harnessed statistical tools often associated with AI to cluster opinion, allowing every participant to quickly digest the clearest articulation of the viewpoints of their fellow citizens and contribute back their own thoughts. The views that drew support from across the initial lines of division rose to the top, forming a rough consensus that ensured the benefits of the new ride hailing tools while also protecting workers’ rights and was implemented by the government. This process has been used to resolve dozens of contentious issues in Taiwan and is rapidly spreading around the world to governments, cooperatives and blockchain communities.
+
+Yet vTaiwan just scratches the surface of how technology can be designed to perceive, honor and bridge social differences for collaboration. New voting and financing rules emerging from the Ethereum ecosystem can reshape how we govern the public and private sectors; immersive virtual worlds are empowering empathetic connections that cross lines of social exclusion; social networks and newsfeeds can be engineered to build social cohesion and shared sensemaking, rather than driving us apart. And, as Taiwan’s experience has shown, the potential social benefits are vast, enabling the world’s best response to a range of recent crises from the Covid pandemic to misinformation to the creating broadly shared prosperity.
+
+Yet while a few countries and ecosystems have put tens of millions of dollars into such technologies, the rest of the world has poured hundreds of billions into AI and Crypto, which pursue fundamentally different goals. AI aims to automate away human participation, centralizing power, strengthening autocracies, and undermining the middle class. Speculative cryptocurrencies, addictive social media and escapist “metaverses” have undermined the social fabric, reinforced social divisions, spread an infodemic and proliferated criminality. It is little surprise, then, that the countries that have invested in these technologies see democracy and technology as enemies.
+
+But it is not too late to change paths: we can invest in technologies that establish digital human rights, empower pluralism and flourish in democratic societies, allowing them to outperform authoritarianism and hyper-capitalism. We can invest to give every person an inalienable right to digital personhood with a new generation of decentralized identity (DID) technologies that empower every person to travel, transact, conduct business, and participate in democratic communities free from centralized surveillance. We can make freedom of association real in the digital world with community-managed and accountable social networks and ledgers that form the town halls and public squares of the future while bridging the growing divides between groups. We can secure digital property rights by creating the public markets and main streets of the future with cryptographic technologies for the secure and privacy-preserving sharing of data, computation, and storage across peers, free from the control of platform monopolists. We can secure the right to commerce with government-supported, privacy-preserving, internationally interoperable digital currencies. And we can enable every citizen to access these rights by making high speed internet a human right and digital competence education core to public school curricula.
+
+Securing these fundamental digital human rights makes pluralism in the digital world not just possible, but natural. In Taiwan, the ideographic characters for “digital” and “plural” are the same: 數位. The experience there and in similar ecosystems has shown how these foundations, even in nascent form, promotes flourishing democracy. Secure and private identities allow citizens to participate in thoughtful deliberations and reasoned compromise, as in vTaiwan, without facing attacks from trolls and bots. Private data sharing allows neighborhoods and communities to provide services (from pollution monitoring to mask availability maps) for themselves rather relying on proprietary platforms. Open and reliable payments allow creative forms of crowdfunding to support shared goods without heavy-handed bureaucracies. Peer-to-peer reputation systems empower civil society to combat misinformation, often with humor, while maintaining vibrant and open speech.
+
+Furthermore, while these tools can transform the public sector around the world, they are not only relevant or even primarily, relevant to national democracies. Instead, they offer a way for every organization, from churches to corporations, to foster more productive and dynamic cooperation. Companies can empower intrapreneurship and cross-divisional infrastructure faster than ever before. Private and sovereign data sharing can contain and cure disease. A new media landscape can simultaneously be more trustworthy and consensual on key facts than ever before while empowering voices marginalized by traditional gate-keepers. Plurality is thus not for politics and government alone, any more than the internet was for the military and universities that first built it. Instead, it is a new technological paradigm that can transform every sector and the lives of every individual for the better if we learn how to harness it.
+
+But just like the internet and other transformative technologies, Plurality will only thrive to the extent we invest in it. The internet began as a network established by the United States Defense Department’s Advanced Research Projects Agency (ARPANET) to experiment with new decentralized user interface designs. Yet the vision of ARPANET’s founders, like JCR Licklider, on which ours is closely modeled, was only very partially realized because it never mobilized the public and international support and multisectoral investment needed to follow it through. Instead, as Licklider predicted, it was mostly captured by monopolists who stymied its potential. Today we have the chance to correct that mistake and build a future where our technologies express and empower our highest ideals, rather than degrading them. Every activist, artist, technologist, citizen, policymaker and organization has a key role to play in the struggle for that future.
+
