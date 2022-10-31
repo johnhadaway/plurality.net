@@ -1,7 +1,6 @@
 ---
 title: Plurality
-language: "English"
-githubLink: www
+githubLink: 
 numContributors: 30
 dateStartedString: {
   day: "01",
@@ -11,5 +10,10 @@ dateStartedString: {
 translations: {
   contributors: "contributors",
   contribute: "contribute"
+}
+language: {
+  en: "english",
+  iso639: "en",
+  locale: "english"
 }
 ---

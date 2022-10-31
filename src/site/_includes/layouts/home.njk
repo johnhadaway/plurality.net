@@ -1,3 +1,4 @@
+{%- from 'macros/nav.njk' import renderNav -%}
 {% extends "layouts/base.njk" %}
 
 {% block headerScripts %}
@@ -6,7 +7,31 @@
 {% endblock %}
 
 {% block topNav %}
-  {% include "partials/landing-top-nav.njk" %}
+  {{ renderNav(
+  leftData = [
+    {
+      title: 'Info',
+      url: '/'
+    },
+    {
+      title: 'Announcements',
+      url: '/'
+    }
+  ],
+  centreData = [
+    {
+      title: 'Plurality: Technology for Collaborative Diversity and Democracy',
+      url: '/'
+    }
+  ],
+  rightData = [
+    {
+      title: 'Twitter',
+      url: '/',
+      external: true
+    }
+  ]
+  ) }}
 {% endblock %}
 
 {% block mainColContent %}
@@ -20,6 +45,4 @@
   </div>
 {% endblock %}
 
-{% block footer %}
-  {%- include 'partials/footer.njk' -%}
-{% endblock %}
+{% block footer %}{% endblock %}

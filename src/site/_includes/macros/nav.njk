@@ -4,21 +4,33 @@
   {% if leftData %}
     <div id="nav-left">
       {% for item in leftData %}
-        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% if item.external %}
+          <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% else %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   {% endif %}
   {% if centreData %}
     <div id="nav-centre">
       {% for item in centreData %}
-        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% if item.external %}
+          <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% else %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   {% endif %}
   {% if rightData %}
     <div id="nav-right">
       {% for item in rightData %}
-        <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% if item.external %}
+          <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% else %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   {% endif %}

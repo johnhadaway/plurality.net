@@ -1,6 +1,7 @@
 @import './base.css';
 @import './home.css';
 @import './nav.css';
+@import './version.css';
 
 /* ROOT VARIABLES, FOR USE IN MODULES WHERE APPROPRIATE */
 :root {

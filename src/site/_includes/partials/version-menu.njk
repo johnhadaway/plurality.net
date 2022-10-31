@@ -9,11 +9,12 @@
         monthStarted = version.data.dateStartedString.month,
         yearStarted = version.data.dateStartedString.year,
         numContributors = False,
-        language = version.data.language,
+        language = version.data.language.locale,
         contributorsTranslated = False,
         contributeTranslated = version.data.translations.contribute,
         pageTitle = version.data.title,
-        pageUrl = version.data.permalink) }}
+        pageUrl = version.url) 
+      }}
     </li>
   {% endfor %}
 </ol>

@@ -1,0 +1,25 @@
+{%- from 'macros/nav.njk' import renderNav -%}
+{% extends "layouts/base.njk" %}
+
+{% block topNav %}
+  {{ renderNav(
+  leftData = [
+    {
+      title: 'return',
+      url: '/'
+    }
+  ],
+  centreData = [],
+  rightData = []
+  ) }}
+{% endblock %}
+
+{% block mainColContent %}
+  <div id="version-content">
+    {% include "partials/version-content.njk" %}
+  </div>
+{% endblock %}
+
+{% block extraneousContent %}{% endblock %}
+
+{% block footer %}{% endblock %}
