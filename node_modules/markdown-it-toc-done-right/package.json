@@ -1,0 +1,56 @@
+{
+  "name": "markdown-it-toc-done-right",
+  "version": "4.2.0",
+  "description": "Table of contents (TOC) for markdown-it markdown parser with focus on semantic and security.",
+  "source": "index.js",
+  "main": "dist/markdownItTocDoneRight.js",
+  "module": "dist/markdownItTocDoneRight.mjs",
+  "unpkg": "dist/markdownItTocDoneRight.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "lint": "standard --verbose index.js __test__/test.js | snazzy",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagaozen/markdown-it-toc-done-right.git"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "toc",
+    "table of contents"
+  ],
+  "author": "Fabio Zendhi Nagao <https://github.com/nagaozen>",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist/*",
+    "runkit.js",
+    "types/*"
+  ],
+  "types": "types/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/nagaozen/markdown-it-toc-done-right/issues"
+  },
+  "homepage": "https://github.com/nagaozen/markdown-it-toc-done-right#readme",
+  "jest": {
+    "verbose": true
+  },
+  "runkitExampleFilename": "runkit.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/markdown-it": "^10.0.0",
+    "coveralls": "^3.0.7",
+    "jest": "^26.6.3",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^6.0.0",
+    "microbundle": "^0.12.4",
+    "snazzy": "^8.0.0",
+    "standard": "^13.1.0",
+    "uslug": "^1.0.4"
+  }
+}

@@ -49,19 +49,19 @@
 }
 
 #version-menu > #version-ol > .version-item > div > .version-meta > span {
-  font-size: var(--font-size-step-1);
+  font-size: var(--font-size-step-0);
   text-decoration: none;
   color: var(--secondary-color);
   vertical-align: top;
   text-decoration: none;
-  line-height: var(--font-size-step-1);
+  line-height: var(--font-size-step-0);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-meta > span > a {
   text-decoration: none;
   color: var(--secondary-color);
   display: inline-block;
-  line-height: var(--font-size-step-1);
+  line-height: var(--font-size-step-0);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-title {

@@ -1,6 +1,6 @@
 // INTERACTIVE TYPE
 const interactiveType = (p) => {
-  let gridSize = 5;
+  let gridSize = 6;
   let points = [];
   let mutationRange = [-80, 80]
   let initialMutationLowerBound = mutationRange[0];
@@ -9,22 +9,22 @@ const interactiveType = (p) => {
     font = 'monospace';
   }
 
-  // black background
   p.setup = function() {
     var container = document.getElementById('interactive-type');
     p.createCanvas(container.offsetWidth, container.offsetHeight);
 
-    p.background(255);
+    p.background(0);
     p.textFont(font);
     p.textSize(255);
     p.textAlign(p.CENTER, p.CENTER);
+    p.fill(255);
     p.text('數位', p.width/2, p.height/2);
 
     p.loadPixels();
     for (let y = 0; y < p.height; y += gridSize) {
       for (let x = 0; x < p.width; x += gridSize) {
         let r = p.get(x, y)[0];
-        if (r < 128) {
+        if (r > 128) {
           points.push(p.createVector(x,y));
         }
       }

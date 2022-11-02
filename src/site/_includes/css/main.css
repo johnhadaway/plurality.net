@@ -7,8 +7,9 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
-  --font-size-step-1: 1rem;
-  --font-size-step-2: 1.2rem;
+  --font-size-step-0: 1.15rem;
+  --font-size-step-1: 1.15rem;
+  --font-size-step-2: 1.15rem;
   --font-size-step-3: 2.5rem;
   --font-size-step-4: 3.5rem;
   --font-size-step-5: 5rem;
@@ -28,4 +29,5 @@
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-family);
   color: var(--secondary-color);
+  font-weight: 500;
 }
