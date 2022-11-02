@@ -20,7 +20,7 @@ html, body {
   flex-direction: column;
   position: fixed;
   overflow-y: scroll;
-  z-index: 100;
+  z-index: 2;
   height: 100%;
   width: 100%;
 }

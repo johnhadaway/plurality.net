@@ -1,12 +1,14 @@
 {%- from 'macros/nav.njk' import renderNav -%}
 {% extends "layouts/base.njk" %}
 
+{% block headerScripts %}{% endblock %}
+
 {% block topNav %}
   {{ renderNav(
   leftData = [
     {
       title: 'return',
-      url: '/'
+      path: "/"
     }
   ],
   centreData = [],

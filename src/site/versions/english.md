@@ -8,8 +8,6 @@ dateStartedString: {
   year: "2022"
 }
 translations: {
-  contributors: "contributors",
-  translators: "translators",
   plurality: "plurality",
   subtitle: "technology for collaborative diversity and democracy"
 }
@@ -18,7 +16,6 @@ language: {
   iso639: "en",
   locale: "english"
 }
-translators: []
 ---
 
 # OVERVIEW

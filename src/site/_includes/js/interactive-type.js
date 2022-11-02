@@ -1,6 +1,6 @@
 // INTERACTIVE TYPE
 const interactiveType = (p) => {
-  let gridSize = 6;
+  let gridSize = 5;
   let points = [];
   let mutationRange = [-80, 80]
   let initialMutationLowerBound = mutationRange[0];
@@ -50,11 +50,11 @@ const interactiveType = (p) => {
   p.mouseWheel = function(event) {
     if (event.delta > 0 && mutationRange[0] < 0) {
       mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
-      gridSize += 0.2;
+      gridSize += 0.15;
     } 
     if (event.delta < 0 && gridSize > 1 && mutationRange[0] > initialMutationLowerBound) {
       mutationRange = [mutationRange[0] - 1, mutationRange[1] + 1];
-      gridSize -= 0.2;
+      gridSize -= 0.15;
     }
   }
 }

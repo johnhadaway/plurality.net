@@ -4,6 +4,7 @@
   {% if leftData %}
     <div id="nav-left">
       {% for item in leftData %}
+        <script>console.log("{{ item.path }}")</script>
         {% if item.external %}
           <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
         {% else %}

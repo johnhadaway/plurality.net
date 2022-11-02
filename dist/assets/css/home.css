@@ -10,7 +10,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 0 var(--padding-step-4);
+  padding: 25vh 0 0 calc(var(--padding-step-4)*2);
 }
 
 #version-menu > #version-ol > * {
@@ -70,6 +70,7 @@
   vertical-align: top;
   text-align: left;
   margin-left: -2px;
+
 }
 
 #version-menu > #version-ol > .version-item > div > .version-title > a {
@@ -86,6 +87,7 @@
   width: 70%;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 
 #interactive-type > canvas {

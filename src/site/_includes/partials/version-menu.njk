@@ -1,21 +1,23 @@
 {%- from 'macros/version-menu-item.njk' import versionMenuItem -%}
 
-<ol id="version-ol">
-  {% for version in collections.versions %}
-    <li class="version-item">
-      {{ versionMenuItem( 
-        githubLink = version.data.githubLink, 
-        dayStarted = version.data.dateStartedString.day,
-        monthStarted = version.data.dateStartedString.month,
-        yearStarted = version.data.dateStartedString.year,
-        numContributors = False,
-        language = version.data.language.locale,
-        contributorsTranslated = False,
-        contributeTranslated = version.data.translations.contribute,
-        pluralityTranslated = version.data.translations.plurality,
-        pageTitle = version.data.title,
-        pageUrl = version.url) 
-      }}
-    </li>
-  {% endfor %}
-</ol>
+<div id="version-menu">
+  <ol id="version-ol">
+    {% for version in collections.versions %}
+      <li class="version-item">
+        {{ versionMenuItem( 
+          githubLink = version.data.githubLink, 
+          dayStarted = version.data.dateStartedString.day,
+          monthStarted = version.data.dateStartedString.month,
+          yearStarted = version.data.dateStartedString.year,
+          numContributors = False,
+          language = version.data.language.locale,
+          contributorsTranslated = False,
+          contributeTranslated = version.data.translations.contribute,
+          pluralityTranslated = version.data.translations.plurality,
+          pageTitle = version.data.title,
+          pageUrl = version.url) 
+        }}
+      </li>
+    {% endfor %}
+  </ol>
+</div>
