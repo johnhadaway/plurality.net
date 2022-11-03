@@ -35,35 +35,43 @@
   padding: 25vh calc(var(--padding-step-4)) 0 calc(var(--padding-step-4)*2);
 }
 
-#version-wrapper > #version-index > #version-data {
+#version-wrapper > #version-content > #version-data {
   display: flex;
   flex-direction: column;
   margin-bottom: var(--padding-step-3);
 }
 
-#version-wrapper > #version-index > #version-data > #version-data-translations-plurality {
+#version-wrapper > #version-content > #version-data > #version-data-title {
   font-size: var(--font-size-step-5);
   line-height: var(--font-size-step-5);
   text-transform: uppercase;
   margin-left: -2px;
 }
 
-#version-wrapper > #version-index > #version-data > p {
-  font-size: var(--font-size-step-0);
-  line-height: var(--font-size-step-0);
-  text-transform: uppercase;
+#version-wrapper > #version-content > #version-data > span {
+  margin-top: var(--padding-step-2);
 }
 
-#version-wrapper > #version-index > .toc {}
+#version-wrapper > #version-content > #version-data > span > p {
+  font-size: var(--font-size-step-1);
+  line-height: var(--font-size-step-1);
+  font-style: italic;
+}
 
 #version-wrapper > #version-index > .toc > ol {
   list-style-type: none;
 }
 
+#version-wrapper > #version-index > .toc > ol > li {
+  padding: 0;
+  margin: 0;
+}
+
 #version-wrapper > #version-index > .toc > ol > li > a {
   text-transform: none;
   text-decoration: none;
-  font-size: var(--font-size-step-0);
+  font-size: var(--font-size-step-1);
+  line-height: var(--font-size-step-1);
 }
 
 

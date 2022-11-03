@@ -1,21 +1,24 @@
 ---
 title: "Plurality: Technology for Collaborative Diversity and Democracy"
 githubLink: 
-numContributors: 30
 dateStartedString: {
   day: "01",
   month: "08",
   year: "2022"
 }
 translations: {
-  plurality: "plurality",
-  subtitle: "technology for collaborative diversity and democracy"
+  plurality: "Plurality",
+  subtitle: "Technology for Collaborative Diversity and Democracy",
+  authorsLead: "By",
+  translatorsLead: "Translated by:",
+  and: "and"
 }
 language: {
   en: "english",
   iso639: "en",
   locale: "english"
 }
+translators: []
 ---
 
 # OVERVIEW
