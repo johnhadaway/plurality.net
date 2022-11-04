@@ -11,8 +11,12 @@
           <p id="version-data-translators">
             {{translations.translatorsLead}}
             {% for translator in translators %}
-              {% if loop.last %}
-                and {{translator}}
+              {% if (loop.last) and (translators|length != 1) %}
+                {% if translators|length == 1 %}
+                  {{translator}}
+                {% else %}
+                  and {{translator}}
+                {% endif %}
               {% else %}
                 {% if translators|length == 2 and loop.first %}
                   {{translator}}

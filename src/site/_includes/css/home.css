@@ -77,6 +77,10 @@
   display: inline-block;
 }
 
+#version-menu > #version-ol > .version-item > div > .version-title > a:hover {
+  font-style: italic;
+}
+
 
 /* INTERACTIVE TYPE DIV */
 #interactive-type {

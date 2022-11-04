@@ -19,7 +19,7 @@ const interactiveType = (p) => {
     p.textAlign(p.CENTER, p.CENTER);
     p.fill(255);
     p.text('數位', p.width/2, p.height/2);
-    p.frameRate(30);
+    p.frameRate(60);
 
     p.loadPixels();
     for (let y = 0; y < p.height; y += gridSize) {
@@ -33,14 +33,15 @@ const interactiveType = (p) => {
   }
 
   p.draw = function() {
+    
     p.background(0);
     let mutationAmt = p.map(p.mouseX, 0, p.width, mutationRange[0], mutationRange[1], true);
 
     for (let i = 0; i < points.length; i++) {
       let x = points[i].x;
       let y = points[i].y;
-      x += p.random(-mutationAmt,mutationAmt) * p.random(1.5);
-      y += p.random(-mutationAmt,mutationAmt) * p.random(1.5);
+      x += p.random(-mutationAmt,mutationAmt) * p.random(1.75);
+      y += p.random(-mutationAmt,mutationAmt) * p.random(1.75);
   
       p.stroke(255);
       p.fill(0);
@@ -51,11 +52,11 @@ const interactiveType = (p) => {
   p.mouseWheel = function(event) {
     if (event.delta > 0 && mutationRange[0] < 0) {
       mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
-      gridSize += 0.15;
+      gridSize += 0.1;
     } 
     if (event.delta < 0 && gridSize > 1 && mutationRange[0] > initialMutationLowerBound) {
       mutationRange = [mutationRange[0] - 1, mutationRange[1] + 1];
-      gridSize -= 0.15;
+      gridSize -= 0.1;
     }
   }
 }
