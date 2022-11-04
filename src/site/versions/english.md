@@ -9,17 +9,28 @@ dateStartedString: {
 translations: {
   plurality: "Plurality",
   subtitle: "Technology for Collaborative Diversity and Democracy",
-  authorsLead: "By",
+  authorsLead: "By Audrey Tang and E. Glen Weyl",
   translatorsLead: "Translated by:",
-  and: "and"
+  return: "return"
 }
 language: {
   en: "english",
-  iso639: "en",
+  iso6392B: "eng",
   locale: "english"
 }
 translators: []
 ---
+
+Introducing and soliciting collaboration on Plurality: Technology for Collaborative Diversity and Democracy
+
+We are about to embark on a journey and hope you will join us. Over the past half decade we have, in collaboration with so many of you, been developing an alternative to the usual narratives about the future of technology that focus on financialization or centralized artificial intelligence. Plurality, as we call it, is technology that recognizes, honors, and empowers cooperation across social and cultural differences. You can learn a bit more about it in the overview below. We believe Plurality is the natural technological paradigm to support the flourishing of democratic societies and can overcome many of the entrenched divisions in our world today. We want to tell the world about this possibility so we can stimulate the diverse and coordinated investment and experimentation that can make it a reality. And we want your help.
+
+While our precise plan will evolve with the advances in Plurality research and practical realities, we are committed to embodying the ideas of the book in the way we create, distribute, and financially support it. All material will be a Free Cultural Work, among the most permissive category of Creative Commons license. We plan to write the book in public in a git-like structure, where we will solicit editorial and research assistance openly from the community and enlist those who contribute to help us prioritize pull requests and eventually control the contents of the book. We will support the financial expenses of making the book available using a range of aligned, web3-native mechanisms, including Plural/Quadratic Funding grants, NFT “signatures” on physical and digital purchased copies of the book and SALSA/Harberger NFTs for access to Glen as a speaker/consultant based on the book. We will represent a range of roles contributing to the book using Soulbound Tokens (SBTs) and will use these as the foundation for governing choices about the content after physical publication, including the disposition of much of the funds raised, roughly converting the book’s community into a Distributed Autonomous Organization (DAO). We will be partnering closely with Protocol Labs (PL) to build the technology substrate to make this work and hopefully help invent a new model of publishing for the web3 era.
+
+At the same time, as pluralists, we don’t want to reach only “web3 natives”, and as such we hope to make it a beautiful physical object, widely accessible, distributed and reviewed in standard publishing and media channels. Thus, we need not just hackers and writers, but also designers, storytellers, marketers, translators, publishers and so forth to work with us. And we understand that some of these will prefer more individual entitlements over governance rights on speculative potential cash flows, possibilities we are open to negotiating with partners who share our goals and vision along other dimensions. In any case, neither Audrey nor Glen will receive any compensation nor royalties for their work on the text, to comply with legal responsibilities associated with their employment and to ensure that any revenue supports our mission and the community we hope to build.
+
+We will soon be debuting the software platform that will support our writing in public and managing of participation, but if you perceive a way you want to contribute prior to that, please feel free to [write to Glen](mailto:glen@radicalxchange.org). The future of technology can honor and support the values we hold dear if we work together to imagine and explain it.
+
 
 # OVERVIEW
 
@@ -38,6 +49,16 @@ Securing these fundamental digital human rights makes pluralism in the digital w
 Furthermore, while these tools can transform the public sector around the world, they are not only relevant or even primarily, relevant to national democracies. Instead, they offer a way for every organization, from churches to corporations, to foster more productive and dynamic cooperation. Companies can empower intrapreneurship and cross-divisional infrastructure faster than ever before. Private and sovereign data sharing can contain and cure disease. A new media landscape can simultaneously be more trustworthy and consensual on key facts than ever before while empowering voices marginalized by traditional gate-keepers. Plurality is thus not for politics and government alone, any more than the internet was for the military and universities that first built it. Instead, it is a new technological paradigm that can transform every sector and the lives of every individual for the better if we learn how to harness it.
 
 But just like the internet and other transformative technologies, Plurality will only thrive to the extent we invest in it. The internet began as a network established by the United States Defense Department’s Advanced Research Projects Agency (ARPANET) to experiment with new decentralized user interface designs. Yet the vision of ARPANET’s founders, like JCR Licklider, on which ours is closely modeled, was only very partially realized because it never mobilized the public and international support and multisectoral investment needed to follow it through. Instead, as Licklider predicted, it was mostly captured by monopolists who stymied its potential. Today we have the chance to correct that mistake and build a future where our technologies express and empower our highest ideals, rather than degrading them. Every activist, artist, technologist, citizen, policymaker and organization has a key role to play in the struggle for that future.
+
+When we see “internet of things”, let’s make it an internet of beings.
+
+When we see “virtual reality”, let’s make it a shared reality.
+
+When we see “machine learning”, let’s make it collaborative learning.
+
+When we see “user experience”, let’s make it about human experience.
+
+When we hear “the singularity is near”, let us remember: the plurality is here.
 
 
 # CHAPTER OUTLINE

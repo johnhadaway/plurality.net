@@ -6,24 +6,19 @@
     <div id="version-data">
       <p id="version-data-title">{{title}}</p>
       <span>
-        <p id="version-data-authors">
-          {{translations.authorsLead}}
-          {% for author in site.authors %}
-            {% if loop.last %}
-              {{translations.and}} {{author}}
-            {% else %}
-              {{author}}
-            {% endif %}
-          {% endfor %}
-        </p>
+        <p id="version-data-authors">{{translations.authorsLead}}</p>
         {% if translators|length %}
           <p id="version-data-translators">
             {{translations.translatorsLead}}
             {% for translator in translators %}
               {% if loop.last %}
-                {{translations.and}} {{translator}}
+                and {{translator}}
               {% else %}
-                {{translator}},
+                {% if translators|length == 2 and loop.first %}
+                  {{translator}}
+                {% else %}
+                  {{translator}},
+                {% endif %}
               {% endif %}
             {% endfor %}
           </p>

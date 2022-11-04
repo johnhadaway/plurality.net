@@ -10,7 +10,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 0 calc(var(--padding-step-4)*2);
+  padding: 25vh 0 25vh calc(var(--padding-step-4)*2);
 }
 
 #version-menu > #version-ol > * {
@@ -21,7 +21,6 @@
   display: flex;
   height: 5em;
   box-sizing: border-box;
-  margin-bottom: calc(var(--font-size-step-5));
   list-style: none;
 }
 
@@ -70,7 +69,6 @@
   vertical-align: top;
   text-align: left;
   margin-left: -2px;
-
 }
 
 #version-menu > #version-ol > .version-item > div > .version-title > a {
