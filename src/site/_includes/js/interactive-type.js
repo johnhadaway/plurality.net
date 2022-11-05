@@ -19,7 +19,7 @@ const interactiveType = (p) => {
     p.textAlign(p.CENTER, p.CENTER);
     p.fill(255);
     p.text('數位', p.width/2, p.height/2);
-    p.frameRate(60);
+    p.frameRate(50);
 
     p.loadPixels();
     for (let y = 0; y < p.height; y += gridSize) {
