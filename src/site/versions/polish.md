@@ -7,8 +7,8 @@ dateStartedString: {
   year: "2022"
 }
 translations: {
-  plurality: "Plurality",
-  subtitle: "Technology for Collaborative Diversity and Democracy",
+  plurality: "Pluralność",
+  subtitle: "Technologia na rzecz współpracy w zakresie różnorodności i demokracji",
   authorsLead: "Audrey Tang and E. Glen Weyl",
   translatorsLead: "Translated by:",
   return: "return"

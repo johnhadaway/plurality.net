@@ -7,6 +7,8 @@
         <script>console.log("{{ item.path }}")</script>
         {% if item.external %}
           <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% elif item.back %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#x2715;&#xFE0E;</a>
         {% else %}
           <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
         {% endif %}
@@ -18,6 +20,8 @@
       {% for item in centreData %}
         {% if item.external %}
           <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% elif item.back %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#x2715;&#xFE0E;</a>
         {% else %}
           <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
         {% endif %}
@@ -29,6 +33,8 @@
       {% for item in rightData %}
         {% if item.external %}
           <a target="_blank" href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#8599;&#xFE0E;</a>
+        {% elif item.back %}
+          <a href="{{ item.path }}" class="top-nav-item">{{ item.title }} &#x2715;&#xFE0E;</a>
         {% else %}
           <a href="{{ item.path }}" class="top-nav-item">{{ item.title }}</a>
         {% endif %}

@@ -15,7 +15,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
     "src/site/_includes/css/*.css" : "assets/css",
-    "src/site/_includes/js/*.js" : "assets/js"
+    "src/site/_includes/js/*.js" : "assets/js",
+    "src/site/_includes/fonts/authentic-sans/*" : "assets/fonts/authentic-sans",
+    "src/site/_includes/fonts/lanapixel/*" : "assets/fonts/lanapixel",
   });
 
   return {

@@ -1,8 +1,6 @@
 {%- from 'macros/nav.njk' import renderNav -%}
 {% extends "layouts/base.njk" %}
 
-{% block headerScripts %}{% endblock %}
-
 {% block topNav %}
   {{ renderNav(
   leftData = [
@@ -18,9 +16,5 @@
 {% endblock %}
 
 {% block mainColContent %}
-  {% include "partials/version-content.njk" %}
+  {%- include 'partials/info-content.njk' -%}
 {% endblock %}
-
-{% block extraneousContent %}{% endblock %}
-
-{% block footer %}{% endblock %}

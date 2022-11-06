@@ -10,7 +10,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 25vh calc(var(--padding-step-4)*2);
+  padding: 25vh 0 10vh calc(var(--padding-step-4)*2);
 }
 
 #version-menu > #version-ol > * {
@@ -19,7 +19,7 @@
 
 #version-menu > #version-ol > .version-item {
   display: flex;
-  height: 5em;
+  padding-bottom: calc(var(--padding-step-3)*2);
   box-sizing: border-box;
   list-style: none;
 }
@@ -38,6 +38,7 @@
   word-break: break-all;
   word-wrap: break-all;
   white-space: pre-wrap;
+  margin-bottom: var(--padding-step-1);
 }
 
 #version-menu > #version-ol > .version-item > div > .version-meta {
@@ -76,11 +77,6 @@
   color: var(--secondary-color);
   display: inline-block;
 }
-
-#version-menu > #version-ol > .version-item > div > .version-title > a:hover {
-  font-style: italic;
-}
-
 
 /* INTERACTIVE TYPE DIV */
 #interactive-type {

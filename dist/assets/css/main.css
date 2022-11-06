@@ -3,22 +3,51 @@
 @import './nav.css';
 @import './version.css';
 
+@font-face {
+  font-family: 'ft88';
+  src: url('../fonts/ft88/FT88-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ft88';
+  src: url('../fonts/ft88/FT88-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'authentic-sans';
+  src: url('../fonts/authentic-sans/AUTHENTICSans-90.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'authentic-sans';
+  src: url('../fonts/authentic-sans/AUTHENTICSans-150.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'lanapixel';
+  src: url('../fonts/lanapixel/LanaPixel.ttf') format('truetype');
+}
+
+
 /* ROOT VARIABLES, FOR USE IN MODULES WHERE APPROPRIATE */
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
-  --font-size-step-0: 9px;
-  --font-size-step-1: 11px;
-  --font-size-step-2: 11px;
-  --font-size-step-3: 15px;
-  --font-size-step-4: 25px;
-  --font-size-step-5: 35px;
+  --font-size-step-0: 10px;
+  --font-size-step-1: 12px;
+  --font-size-step-2: 12px;
+  --font-size-step-3: 16px;
+  --font-size-step-4: 30px;
+  --font-size-step-5: 45px;
   --padding-step-1: 5px;
   --padding-step-2: 10px;
   --padding-step-3: 25px;
   --padding-step-4: 50px;
   --padding-step-5: 100px;
-  --font-family: 'Helvetica';
+  --font-family: 'lanapixel', monospace;
+  --font-family-alt: 'authentic-sans', monospace;
 }
 
 /* UNIVERSAL STYLE DECLARATIONS */
@@ -28,6 +57,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-family);
+  font-weight: bold;
   color: var(--secondary-color);
   font-weight: 500;
 }

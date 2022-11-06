@@ -56,6 +56,7 @@
   font-size: var(--font-size-step-1);
   line-height: var(--font-size-step-1);
   font-style: italic;
+  font-family: var(--font-family-alt);
 }
 
 #version-wrapper > #version-index > .toc > ol {
@@ -82,6 +83,10 @@
   padding-bottom: var(--padding-step-4);
 }
 
+#version-md > *, #version-md > * > * {
+  font-family: var(--font-family-alt);
+}
+
 #version-md > p {
   margin-bottom: var(--padding-step-2);
   font-size: var(--font-size-step-1);
@@ -89,15 +94,21 @@
 }
 
 #version-md > h1, #version-md > h2, #version-md > h3 {
-  font-size: var(--font-size-step-2);
-  line-height: var(--font-size-step-2);
+  font-size: var(--font-size-step-3);
+  line-height: var(--font-size-step-3);
   margin: 0 0 var(--padding-step-3) 0;
+  padding-top: var(--padding-step-3);
+  font-family: var(--font-family);
+  font-weight: bold;
 }
 
 #version-md > h1:nth-child(n+2) {
-  font-size: var(--font-size-step-2);
-  line-height: var(--font-size-step-2);
+  font-size: var(--font-size-step-3);
+  line-height: var(--font-size-step-3);
+  padding-top: var(--padding-step-3);
   margin: var(--padding-step-4) 0 var(--padding-step-3) 0 !important;
+  font-family: var(--font-family);
+  font-weight: bold;
 }
 
 #version-md > #chapter-outline-structure {
@@ -105,6 +116,10 @@
   font-size: var(--font-size-step-1);
   list-style-position: outside;
   margin-left: 1em;
+}
+
+#version-md > #chapter-outline-structure > * > *, #version-md > #chapter-outline-structure > * > * > * {
+  font-family: var(--font-family-alt);
 }
 
 #version-md > #chapter-outline-structure > li {
