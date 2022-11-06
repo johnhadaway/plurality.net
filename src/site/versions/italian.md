@@ -21,6 +21,8 @@ language: {
 translators: [Andrea Brena]
 ---
 
+Presentazione e richiesta di collaborazione su *Plurality: Tecnologia per la Diversità e la Democrazia Collaborative*
+
 Stiamo per intraprendere un viaggio e speriamo che vi uniate a noi. Nell’ultimo mezzo decennio, in collaborazione con molti di voi, abbiamo sviluppato un’alternativa alle solite narrativesul futuro della tecnologia che si concentrano sulla finanziarizzazione o sull’intelligenza artificiale centralizzata. Plurality, come la chiamiamo noi, è una tecnologia che riconosce, onora e potenzia la cooperazione attraverso le differenze sociali e culturali. Per saperne di più, vi invitiamo a leggere la panoramica qui sotto. Crediamo che Plurality sia il paradigma tecnologico naturale per sostenere la prosperità delle società democratiche e che possa superare molte delle divisioni radicate nel mondo odierno. Vogliamo far conoscere al mondo questa possibilità, in modo da stimolare investimenti e sperimentazioni diversificati e coordinati che possano trasformarla in realtà. E vogliamo il vostro aiuto.
 
 Mentre il nostro piano preciso si definirà con i progressi della ricerca di Plurality e le realtà pratiche, ci impegniamo a incarnare le idee del libro nel modo in cui lo creiamo, lo distribuiamo e lo sosteniamo finanziariamente. Tutto il materiale sarà un’Opera Culturale Libera (Free Cultural Work), tra le categorie più permissive della licenza Creative Commons. Intendiamo scrivere il libro pubblicamente in una struttura simile a Git, dove apertamente, solleciteremo l’assistenza editoriale e di ricerca dalla comunità stessa e ingaggeremo coloro che con in loro contributo, ci aiuteranno a dare priorità alle richieste di modifica (pull requests) e infine a controllare i contenuti del libro. Sosterremo i costi per la pubblicazione del libro utilizzando una serie di meccanismi web3-nativi, tra cui sovvenzioni per finanziamenti plurali/quadratici, “firme” NFT su copie fisiche e digitali acquistate del libro e NFT SALSA/Harberger per l’accesso a Glen come relatore/consulente su tematiche legate al libro. Ruoli di contributo al libro verrano rappresentati da Soulbound Token (SBT) che verranno utilizzati come base per governare le scelte sul contenuto dopo la pubblicazione, compresa la disposizione di gran parte dei fondi raccolti, convertendo la comunità del libro in una Distributed Autonomous Organization (DAO). Collaboreremo a stretto contatto con Protocol Labs (PL) per costruire il substrato tecnologico necessario a far funzionare tutto ciò e, auspicabilmente, contribuire a inventare un nuovo modello di editoria per l’era del web3.
@@ -48,16 +50,13 @@ Inoltre, sebbene questi strumenti possano trasformare il settore pubblico in tut
 
 Ma proprio come Internet e altre tecnologie trasformative, Plurality potrà prosperare solo relativamente a quanto investiremo in essa. Internet è nato come una rete creata dall’Advanced Research Projects Agency (ARPANET) del Dipartimento della Difesa degli Stati Uniti per sperimentare nuovi design di interfacce utente decentralizzate. Tuttavia, la visione dei fondatori di ARPANET, come JCR Licklider, su cui la nostra è strettamente modellata, è stata realizzata solo in parte perché non ha mai mobilitato il sostegno pubblico e internazionale e gli investimenti multisettoriali necessari per portarla avanti. Invece, come previsto da Licklider, è stato per lo più catturato da monopolisti che ne hanno ostacolato il potenziale. Oggi abbiamo la possibilità di correggere quell’errore e di costruire un futuro in cui le nostre tecnologie esprimano e potenzino i nostri ideali più nobili, anziché degradarli. Ogni attivista, artista, tecnologo, cittadino, politico e organizzazione ha un ruolo chiave da svolgere nella lotta per questo futuro.
 
-Quando vediamo “internet delle cose”, facciamo in modo che sia un internet degli persone.
-
-Quando vediamo “realtà virtuale”, rendiamola una realtà condivisa.
-
-Quando vediamo “machine learning”, rendiamolo un apprendimento collaborativo.
-
-Quando vediamo “user experience”, facciamo in modo che si tratti di esperienza umana.
-
-Quando sentiamo dire “la singolarità è vicina”, ricordiamoci che la pluralità è qui.
-
+<div class="centre-text">
+  <p>Quando vediamo “internet delle cose”, facciamo in modo che sia un internet degli persone.<p>
+  <p>Quando vediamo “realtà virtuale”, rendiamola una realtà condivisa.</p>
+  <p>Quando vediamo “machine learning”, rendiamolo un apprendimento collaborativo.</p >
+  <p>Quando vediamo “user experience”, facciamo in modo che si tratti di esperienza umana.</p>
+  <p>Quando sentiamo dire “la singolarità è vicina”, ricordiamoci che la pluralità è qui.</p>
+</div>
 
 # SCHEMA DEI CAPITOLI
 

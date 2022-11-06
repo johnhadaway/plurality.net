@@ -21,7 +21,7 @@ language: {
 translators: []
 ---
 
-Introducing and soliciting collaboration on Plurality: Technology for Collaborative Diversity and Democracy
+Introducing and soliciting collaboration on *Plurality: Technology for Collaborative Diversity and Democracy*
 
 We are about to embark on a journey and hope you will join us. Over the past half decade we have, in collaboration with so many of you, been developing an alternative to the usual narratives about the future of technology that focus on financialization or centralized artificial intelligence. Plurality, as we call it, is technology that recognizes, honors, and empowers cooperation across social and cultural differences. You can learn a bit more about it in the overview below. We believe Plurality is the natural technological paradigm to support the flourishing of democratic societies and can overcome many of the entrenched divisions in our world today. We want to tell the world about this possibility so we can stimulate the diverse and coordinated investment and experimentation that can make it a reality. And we want your help.
 
@@ -50,15 +50,13 @@ Furthermore, while these tools can transform the public sector around the world,
 
 But just like the internet and other transformative technologies, Plurality will only thrive to the extent we invest in it. The internet began as a network established by the United States Defense Department’s Advanced Research Projects Agency (ARPANET) to experiment with new decentralized user interface designs. Yet the vision of ARPANET’s founders, like JCR Licklider, on which ours is closely modeled, was only very partially realized because it never mobilized the public and international support and multisectoral investment needed to follow it through. Instead, as Licklider predicted, it was mostly captured by monopolists who stymied its potential. Today we have the chance to correct that mistake and build a future where our technologies express and empower our highest ideals, rather than degrading them. Every activist, artist, technologist, citizen, policymaker and organization has a key role to play in the struggle for that future.
 
-
 <div class="centre-text">
   <p>When we see “internet of things”, let’s make it an internet of beings.<p>
-  <p>When we see “virtual reality”, let’s make it a shared reality.</p>
   <p>When we see “virtual reality”, let’s make it a shared reality.</p>
   <p>When we see “machine learning”, let’s make it collaborative learning.</p >
   <p>When we see “user experience”, let’s make it about human experience.</p>
   <p>When we hear “the singularity is near”, let us remember: the plurality is here.</p>
-<div>
+</div>
 
 # CHAPTER OUTLINE
 

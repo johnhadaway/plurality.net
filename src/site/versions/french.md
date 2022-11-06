@@ -21,6 +21,8 @@ language: {
 translators: [Daniel Alsterholm]
 ---
 
+Une introduction et un appel à la coopération pour la rédaction du texte - *Pluralisme: Technologie pour une diversité coopérative et démocratique.*
+
 Nous sommes sur le chemin, depuis déjà une demi-décennie et avec le soutien de plusieurs de vous-mêmes, à développer une alternative aux récits prédominants sur le futur de la technologie trop centré sur le monde de la finance et l’intelligence artificielle centralisée. Pluralité, comme nous l’appelons, est la technologie qui reconnaît, met en valeur, habilite et renforce la coopération à travers des différences sociales et culturelles. Ci-dessous suit un résumé qui vous offre les principales lignes de cette idée. Nous croyons que la pluralité est le paradigme technologique naturel pour soutenir l’épanouissement des sociétés démocratiques et peut surmonter bon nombre des divisions enracinées dans notre monde d’aujourd’hui. Nous voulons informer le monde de cette possibilité afin de stimuler les investissements et les expérimentations divers et coordonnés qui peuvent en faire une réalité. Et nous aurions besoin d’un coup de main.
 
 Alors que notre plan précis évoluera avec les progrès de la recherche sur la pluralité et des réalités pratiques, nous nous engageons à incarner les idées du livre dans la façon dont nous le créons, distribuons et soutenons financièrement. Tout le matériel sera une œuvre pro bono (“Free Cultural Work”), une catégorie parmi les plus permissives de la licence “Creative Commons”. Nous prévoyons d’écrire le livre en public dans une structure de type git, où nous sollicitons ouvertement l’assistance éditoriale et de recherche de la communauté et engagerons ceux qui contribuent à nous aider à hiérarchiser les demandes d’extraction et éventuellement à contrôler le contenu du livre. Nous prendrons en charge les dépenses financières liées à la mise à disposition du livre à l’aide d’une gamme de mécanismes alignés et natifs du web3, y compris les subventions de financement pluriel/quadratique, les « signatures » NFT sur les copies achetées physiques et numériques du livre et les NFT SALSA/Harberger pour l’accès à Glen en tant que conférencier/consultant basé sur le livre. Nous représenterons une gamme de rôles contribuant au livre à l’aide de Soulbound Tokens (SBT) et les utiliserons comme base pour gouverner les choix concernant le contenu après la publication physique, y compris la disposition d’une grande partie des fonds collectés, convertissant à peu près la communauté du livre en une organisation autonome distribuée (DAO). Nous travaillerons en étroite collaboration avec Protocol Labs (PL) pour construire le substrat technologique pour que cela fonctionne et, espérons-le, aider à inventer un nouveau modèle de publication pour l’ère du Web3.
@@ -48,16 +50,13 @@ De plus, si ces outils peuvent transformer le secteur public dans le monde, ils 
 
 Mais tout comme Internet et d’autres technologies transformatrices, la pluralité ne prospérera que dans la mesure où nous y investirons. Internet a commencé comme un réseau établi par l’Agence des projets de recherche avancée du Département de la défense des États-Unis (ARPANET) pour expérimenter de nouvelles conceptions d’interface utilisateur décentralisées. Pourtant, la vision des fondateurs d’ARPANET, comme JCR Licklider, sur laquelle la nôtre est étroitement calquée, n’a été que très partiellement réalisée car elle n’a jamais mobilisé le soutien public et international et les investissements multisectoriels nécessaires pour la mener à bien. Au lieu de cela, comme l’avait prédit Licklider, il a été principalement capturé par des monopoles qui ont entravé son potentiel. Aujourd’hui, nous avons la possibilité de corriger cette erreur et de construire un avenir où nos technologies expriment et renforcent nos idéaux les plus élevés, plutôt que de les dégrader. Chaque activiste, artiste, technologue, citoyen, décideur politique et organisation a un rôle clé à jouer dans la lutte pour cet avenir.
 
-Quand on voit “l’internet des objets”, faisons-en un internet des êtres.
-
-Quand nous voyons la “réalité virtuelle”, faisons-en une réalité partagée.
-
-Quand nous voyons “machine learning”, faisons-en un apprentissage collaboratif.
-
-Quand on parle d’“expérience utilisateur”, parlons d’expérience humaine.
-
-Quand nous entendons « la singularité est proche », rappelons-nous : la pluralité est là.
-
+<div class="centre-text">
+  <p>Quand on voit “l’internet des objets”, faisons-en un internet des êtres.<p>
+  <p>Quand nous voyons la “réalité virtuelle”, faisons-en une réalité partagée.</p>
+  <p>Quand nous voyons “machine learning”, faisons-en un apprentissage collaboratif.</p >
+  <p>Quand on parle d’“expérience utilisateur”, parlons d’expérience humaine.</p>
+  <p>Quand nous entendons « la singularité est proche », rappelons-nous : la pluralité est là.</p>
+</div>
 
 # PLAN DE L'OUVRAGE
 

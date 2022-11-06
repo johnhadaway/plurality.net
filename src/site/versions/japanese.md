@@ -21,6 +21,10 @@ language: {
 translators: [Akinori Oyama, tkgshn]
 ---
 
+新しい著作の紹介と協力者の募集
+
+*Plurality: 協働可能な多様性と民主主義のためのテクノロジー*
+
 私たちは長い旅に出ようとしています。皆さんもご一緒しませんか。5年間以上に渡り、私たちは多くの皆さんと協力して、金融化や中央集権的な人工知能に焦点を当てたテクノロジーの未来についての通常の物語の語られ方に代わるものを発展させてきました。 「Plurality（複数・多次元性）」と私たちが呼んでいるものは、社会的および文化的な違いを超えた協力を認識し、尊重し、力を与えるテクノロジーです。Pluralityについては、この案内に続く概要の章を読むと、より深く理解していただけると思います。私たちは、「「Plurality」が民主主義社会の繁栄を支えるためには自然に導き出される技術的パラダイムであり、今日の世界に定着した多くの分断を克服できると信じています。私たちはこの可能性を世界に伝え、それを実現するための多様で協調的な投資と実験的な試みを促せるようにしたいと考えています。そして、私たちはあなたにも手伝ってほしいのです。
 
 私たちの計画は、”Pluralityそのもの”に関する研究と、社会実装の実情の両方によって発展していきますが、私たちは、本を作り、、届け、、それらを金銭的に支えていく方法においても、本に記すのと同じように、体現できるようにしてことを約束します。すべての素材は、クリエイティブ・コモンズ・ライセンスの最も寛容なカテゴリの 1 つである「フリー・カルチャー・ワーク」になります。私たちは、この本を git の仕組みのように公開の場で執筆する予定です。つまり、コミュニティから編集や研究の協力をオープンに募り、プルリクエストの優先順位付けを支援して結果として本の内容を調整管理するために貢献してくれる人を募る予定です。私たちは、Plural/Quadratic Funding (通例QF、二次資金調達)形式での助成金や、物理的およびデジタル的に購入された書籍のコピーに対する NFT「署名」や、本に関する講演者やコンサルタントとしてグレン・ワイルへの依頼手段としてのSALSA/Harberger NFT など、さまざまな相応しいWeb3 ネイティブのメカニズムの数々を使用して、本を利用できるようにするための財政的費用をサポートします。私たちは、Soulbound Tokens (SBT) をこの本の出版に関するさまざまな貢献に応じて付与し、出版（完成）したあと、”それらをどう進めていくか”に関しての決定を最終的にはDAOに委ねていく予定です。これに関しては、出版作業そのもののために集めたお金（雇用も含む）のほか、売り上げの配分などもどのように行うかも含まれます。私たちは Protocol Labs (PL) と緊密に連携して、これらを実現するための技術基盤を構築し、Web3時代の新しい出版モデルの発明に役立つことを願っています。
@@ -48,12 +52,10 @@ Uber が台湾に上陸したとき、世界の多くの地域と同様に、そ
 
 しかし、インターネットやその他の革新的であり方を変えるようなテクノロジーと同様に、Pluralityは、私たちが投資した分だけしか繁栄しません。インターネットは、米国国防総省の高等研究計画局 (ARPANET) が新しい分散型ユーザーインターフェースの設計を実験するために設立したネットワークとして始まりました。しかし、J.C.リックライダー(JCR Licklider)のようなARPANET の創設者のビジョンは、私たちも今回のPluralityを同様の構想に基づいて構想設計していますが、それを実行するために必要な公的および国際的な支援と多機関による投資を動員しなかったため、非常に部分的にしか実現されませんでした。構想が実現せずに、リックライダーが予測したように、その可能性を妨げた独占企業によって多くの可能性が占有されてしまいました。今日、今こそ、私たちはその過ちを正し、私たちのテクノロジーが私たちの最高の理想を劣化させるのではなく、その理想を明らかにし、また、実現するような未来を築く機会です。すべての活動家、アーティスト、技術者、市民、政策立案者、組織は、その未来のための闘いにおいて重要な役割を担っています。
 
-When we see “internet of things”, let’s make it an internet of beings.
-
-When we see “virtual reality”, let’s make it a shared reality.
-
-When we see “machine learning”, let’s make it collaborative learning.
-
-When we see “user experience”, let’s make it about human experience.
-
-When we hear “the singularity is near”, let us remember: the plurality is here.
+<div class="centre-text">
+  <p>When we see “internet of things”, let’s make it an internet of beings.<p>
+  <p>When we see “virtual reality”, let’s make it a shared reality.</p>
+  <p>When we see “machine learning”, let’s make it collaborative learning.</p >
+  <p>When we see “user experience”, let’s make it about human experience.</p>
+  <p>When we hear “the singularity is near”, let us remember: the plurality is here.</p>
+</div>

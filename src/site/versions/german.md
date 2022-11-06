@@ -21,6 +21,8 @@ language: {
 translators: ["Leon Erichsen", "Josephine Görke"]
 ---
 
+Einführung und Aufforderung zur Zusammenarbeit an *Pluralität: Technologie für kollaborative Diversität und Demokratie*
+
 Wir stehen am Anfang einer Reise und hoffen, dass Sie sich uns anschließen werden. Im letzten halben Jahrzehnt haben wir gemeinsam mit vielen von Ihnen eine Alternative zu den üblichen Erzählungen über die Zukunft der Technologie entwickelt, die sich auf Finanzierung oder zentralisierte künstliche Intelligenz konzentrieren. Pluralität, wie wir sie nennen, ist Technologie, die die Zusammenarbeit über soziale und kulturelle Unterschiede hinweg anerkennt, würdigt und fördert. In der nachstehenden Übersicht erfahren Sie mehr darüber. Wir sind davon überzeugt, dass Pluralität das natürliche technologische Leitbild ist, um das Gedeihen demokratischer Gesellschaften zu unterstützen, und dass es viele der tief verwurzelten Spaltungen in unserer heutigen Welt überwinden kann. Wir wollen die Welt über diese Möglichkeit informieren, damit wir vielfältige und koordinierte Investitionen und Experimente anregen können, welche diese Möglichkeit verwirklichen können. Und wir bitten um Ihre Hilfe.
 
 Während sich unser präziser Plan mit Fortschritten in der Pluralitätsforschung und den praktischen Realitäten weiterentwickeln wird, sind wir entschlossen, die Ideen des Buches in der Art und Weise zu verkörpern, wie wir es schreiben, verbreiten und finanziell unterstützen. Das gesamte Material wird ein freies kulturelles Werk sein, eine der offensten Kategorien der Creative-Commons-Lizenz. Wir planen, das Buch öffentlich in einer Git-ähnlichen Struktur zu schreiben, in der wir gezielt um redaktionelle und wissenschaftliche Unterstützung aus der Öffentlichkeit bitten. Diejenigen, die dazu beitragen, laden wir ein, uns dabei zu helfen, Pull Requests zu priorisieren und schließlich den Inhalt des Buches zu kontrollieren. Wir werden die finanziellen Ausgaben für die Bereitstellung des Buches mit einer Reihe von übereinstimmenden, Web3-basierten Mechanismen unterstützen. Darunter sind Mechanismen wie Plurale Quadratische Finanzierungsprogramme, NFT-“Unterschriften” auf physisch und digital gekauften Exemplaren des Buches sowie die Versteigerung selbst bewerteter NFT-Lizenzen für den Zugang zu Glen als Sprecher/Berater auf der Grundlage des Buches. Wir werden mit Hilfe von Soulbound Tokens (SBTs) eine Reihe von Aufgaben für Beiträge zum Buch vermitteln und diese Tokens als Grundlage für Entscheidungen über den Inhalt nach der physischen Veröffentlichung verwenden, einschließlich der Verfügung über einen Großteil der gesammelten Gelder, wobei wir die Gemeinde des Buches quasi in eine Distributed Autonomous Organization (DAO) transformieren werden. Wir werden eng mit Protocol Labs (PL) zusammenarbeiten, um die technologische Grundlage hierfür zu schaffen, und hoffentlich dabei helfen, ein neues Modell des Publizierens für das Web3-Zeitalter zu entwickeln.
@@ -48,16 +50,13 @@ Auch wenn diese Werkzeuge den öffentlichen Sektor auf der ganzen Welt veränder
 
 Aber genau wie das Internet und andere transformative Technologien wird auch Pluralität nur in dem Maße gedeihen, wie wir sie vorantreiben. Das Internet begann als ein Netzwerk, das von der Advanced Research Projects Agency des US-Verteidigungsministeriums (ARPANET) eingerichtet wurde, um mit neuen dezentralen Benutzeroberflächen zu experimentieren. Doch die Vision der ARPANET-Gründer wie JCR Licklider, die unserer sehr nahesteht, wurde nur teilweise verwirklicht, weil sie nie die öffentliche und internationale Unterstützung und die branchenübergreifenden Investitionen mobilisieren konnte, die für ihre Verwirklichung erforderlich waren. Stattdessen wurde es, wie von Licklider vorhergesagt, größtenteils von Monopolen vereinnahmt, die das Potenzial des Projekts unterdrückten. Heute haben wir die Chance, diesen Fehler zu korrigieren und eine Zukunft zu schaffen, in der unsere Technologien Ausdruck unserer höchsten Ideale sind und diese stärken, anstatt sie zu entwürdigen. Jede*r Aktivist*in, Künstler*in, Technologe*in, Bürger*in, politische*r Entscheidungsträger*in und jede Organisation hat eine Schlüsselrolle auf der Reise in diese Zukunft zu spielen.
 
-When we see “internet of things”, let’s make it an internet of beings.
-
-When we see “virtual reality”, let’s make it a shared reality.
-
-When we see “machine learning”, let’s make it collaborative learning.
-
-When we see “user experience”, let’s make it about human experience.
-
-When we hear “the singularity is near”, let us remember: the plurality is here.
-
+<div class="centre-text">
+  <p>When we see “internet of things”, let’s make it an internet of beings.<p>
+  <p>When we see “virtual reality”, let’s make it a shared reality.</p>
+  <p>When we see “machine learning”, let’s make it collaborative learning.</p >
+  <p>When we see “user experience”, let’s make it about human experience.</p>
+  <p>When we hear “the singularity is near”, let us remember: the plurality is here.</p>
+</div>
 
 # GLIEDERUNG DER KAPITEL
 
