@@ -158,3 +158,5 @@ Di seguito è riportato uno schema suddiviso in parti e capitoli. Ogni capitolo 
     </ol>
   </li>
 </ol>
+
+*Questo post è rilasciato sotto licenza CC0, nessun diritto riservato.*

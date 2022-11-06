@@ -159,3 +159,5 @@ Vous trouverez ci-dessous un plan divisé en parties et chapitres. Chaque chapit
   </li>
 </ol>
 
+*Ce message est sous licence CC0, aucun droit réservé*
+

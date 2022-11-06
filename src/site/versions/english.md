@@ -159,3 +159,4 @@ Below is an outline divided into parts and chapters. Each chapter lists estimate
   </li>
 </ol>
 
+*This post is licensed under CC0, no rights reserved*
