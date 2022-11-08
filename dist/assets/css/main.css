@@ -2,17 +2,7 @@
 @import './home.css';
 @import './nav.css';
 @import './version.css';
-
-@font-face {
-  font-family: 'ft88';
-  src: url('../fonts/ft88/FT88-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'ft88';
-  src: url('../fonts/ft88/FT88-Bold.otf') format('opentype');
-  font-weight: bold;
-}
+@import './about.css';
 
 @font-face {
   font-family: 'authentic-sans';

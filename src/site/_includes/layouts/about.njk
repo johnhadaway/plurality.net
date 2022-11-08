@@ -1,11 +1,14 @@
 {%- from 'macros/nav.njk' import renderNav -%}
 {% extends "layouts/base.njk" %}
 
+{% block headerScripts %}
+{% endblock %}
+
 {% block topNav %}
   {{ renderNav(
   leftData = [
     {
-      title: translations.return,
+      title: 'return',
       path: "/",
       back: true
     }
@@ -16,5 +19,9 @@
 {% endblock %}
 
 {% block mainColContent %}
-  {%- include 'partials/info-content.njk' -%}
+  {{ content | safe }}
 {% endblock %}
+
+{% block footerScripts -%}
+<script src="{{ site.baseurl }}/assets/js/live-logo.js"></script>
+{%- endblock %}

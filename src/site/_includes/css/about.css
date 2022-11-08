@@ -1,0 +1,31 @@
+#about-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+#about-wrapper > #about-content {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 25vh 0 10vh calc(var(--padding-step-4)*2);
+}
+
+#about-wrapper > #about-content > #plurality-logo {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#about-wrapper > #about-content > #plurality-logo > #plurality-logo-text {
+  font-size: calc(var(--font-size-step-5)*2);
+  line-height: calc(var(--font-size-step-5));
+  text-transform: uppercase;
+}
+
+#about-wrapper > #about-content > #plurality-logo > #plurality-logo-subtext {
+  font-size: var(--font-size-step-3);
+  line-height: var(--font-size-step-3);
+}
