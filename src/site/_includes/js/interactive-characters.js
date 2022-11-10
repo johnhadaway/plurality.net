@@ -1,10 +1,9 @@
 // INTERACTIVE TYPE
 const interactiveTypeBlack = (p) => {
   let gridSize = 5;
-  let points = [];
+  const points = [];
   let mutationRange = [-70, 70];
-  let initialMutationLowerBound = mutationRange[0];
-  let initialMutationUpperBound = mutationRange[1];
+  const initialMutationLowerBound = mutationRange[0];
 
   p.preload = function() {
     font = 'monospace';
@@ -16,7 +15,7 @@ const interactiveTypeBlack = (p) => {
 
     p.background(0);
     p.textFont(font);
-    p.textSize(255);
+    p.textSize(p.width / 4);
     p.textAlign(p.CENTER, p.CENTER);
     p.fill(255);
     p.text('數位', p.width/2, p.height/2);
@@ -60,6 +59,9 @@ const interactiveTypeBlack = (p) => {
     }
   }
 
+  p.windowResized = function() {
+    p.resizeCanvas(document.getElementById('interactive-type').offsetWidth, document.getElementById('interactive-type').offsetHeight);
+  }
 }
 
 let interactiveTypeSketch = new p5(interactiveTypeBlack, 'interactive-type');

@@ -18,7 +18,7 @@
                   and {{translator}}
                 {% endif %}
               {% else %}
-                {% if translators|length == 2 and loop.first %}
+                {% if (translators|length == 1) or (translators|length == 2 and loop.first) %}
                   {{translator}}
                 {% else %}
                   {{translator}},

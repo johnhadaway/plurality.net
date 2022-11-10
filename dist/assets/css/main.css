@@ -51,3 +51,9 @@
   color: var(--secondary-color);
   font-weight: 500;
 }
+
+/* HIGHLIGHTED TEXt */
+::selection {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}

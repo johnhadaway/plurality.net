@@ -1,4 +1,5 @@
 const pluginTOC = require('eleventy-plugin-toc')
+const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary(
@@ -11,6 +12,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginTOC, {
     tags: ['h1', 'h2', 'h3'],
     wrapper: 'div'
+  });
+
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if( outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
   });
 
   eleventyConfig.addPassthroughCopy({

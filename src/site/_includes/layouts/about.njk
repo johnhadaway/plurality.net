@@ -10,7 +10,7 @@
     {
       title: 'return',
       path: "/",
-      back: true
+      return: true
     }
   ],
   centreData = [],
@@ -23,5 +23,6 @@
 {% endblock %}
 
 {% block footerScripts -%}
-<script src="{{ site.baseurl }}/assets/js/live-logo.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/interactive-logo.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/light-dark-mode.js"></script>
 {%- endblock %}

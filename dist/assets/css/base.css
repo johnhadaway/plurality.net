@@ -23,7 +23,7 @@ html, body {
   z-index: 2;
   height: 100%;
   width: 100%;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 #main-col::-webkit-scrollbar {

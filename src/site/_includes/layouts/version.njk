@@ -9,7 +9,7 @@
     {
       title: translations.return,
       path: "/",
-      back: true
+      return: true
     }
   ],
   centreData = [],
@@ -24,3 +24,6 @@
 {% block extraneousContent %}{% endblock %}
 
 {% block footer %}{% endblock %}
+{% block footerScripts %}
+  <script src="{{ site.baseurl }}/assets/js/light-dark-mode.js"></script>
+{% endblock %}
