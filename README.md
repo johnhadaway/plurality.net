@@ -13,7 +13,7 @@ Design decisions that have been made thus far recall that the website aspires to
 
 #### Typography
 
-The website uses two fonts: [Authentic Sans](https://authentic.website/sans), distributed freely under [WTFPL](http://www.wtfpl.net/) and [Lanapixel](https://opengameart.org/content/lanapixel-localization-friendly-pixel-font), distributed under [OFL](./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt). The former is used for body text, and the latter for nav items, headings, and other UI elements.
+The website uses two fonts: [Authentic Sans](https://authentic.website/sans), distributed freely under [WTFPL](http://www.wtfpl.net/), and [Lanapixel](https://opengameart.org/content/lanapixel-localization-friendly-pixel-font), distributed under [OFL](./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt). The former is used for body text, and the latter for nav items, headings, and other UI elements.
 
 #### Colors
 
@@ -21,7 +21,7 @@ The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. Th
 
 #### Layout and Navigation
 
-Each layout extends 'src/site/\_includes/layouts/base.njk':
+Each layout extends `src/site/\_includes/layouts/base.njk`:
 
 - The home page (`src/site/\_includes/layouts/home.njk`) consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
 - The layout for the different language versions (`./src/site/\_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content.
@@ -35,7 +35,7 @@ The home page features two interactive characters: the ideographic characters fo
 
 #### Stack
 
-The site is built on Eleventy/11ty, and primarily uses Nunjucks for templating. JavaScript (libraries used: p5.js) is used to render interactive elements, and vanilla CSS is used for styling.
+The site is built on Eleventy/11ty, and primarily uses Nunjucks for templating. JavaScript (libraries: p5.js) is used to render interactive elements, and vanilla CSS is used for styling.
 
 #### Structure
 
