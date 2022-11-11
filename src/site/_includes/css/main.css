@@ -25,12 +25,12 @@
 :root {
   --primary-color: #000;
   --secondary-color: #fff;
-  --font-size-step-0: 10px;
-  --font-size-step-1: 12px;
-  --font-size-step-2: 12px;
+  --font-size-step-0: 11px;
+  --font-size-step-1: 11px;
+  --font-size-step-2: 11px;
   --font-size-step-3: 16px;
-  --font-size-step-4: 30px;
-  --font-size-step-5: 45px;
+  --font-size-step-4: 22px;
+  --font-size-step-5: 44px;
   --padding-step-1: 5px;
   --padding-step-2: 10px;
   --padding-step-3: 25px;
@@ -65,12 +65,6 @@
 /* MOBILE HANDLING */
 @media screen and (max-width: 768px) {
   :root {
-    --font-size-step-0: 0.625rem;
-    --font-size-step-1: 0.75rem;
-    --font-size-step-2: 0.75rem;
-    --font-size-step-3: 1rem;
-    --font-size-step-4: 1.75rem;
-    --font-size-step-5: 2.1rem;
     --padding-step-1: 0.3125rem;
     --padding-step-2: 0.625rem;
     --padding-step-3: 1.5625rem;

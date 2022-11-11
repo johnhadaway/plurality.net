@@ -1,5 +1,5 @@
 <div align="center" style="margin-top: 5px; margin-bottom: 10px;">
-  <a href="plurality.net"><img alt="Plurality.net landing" src="./docs/img/plurality-landing.gif" width="60%"></a>
+  <a href="plurality.net"><img alt="Plurality.net" src="./docs/img/plurality-landing.gif" width="60%"></a>
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
@@ -9,25 +9,27 @@ This is the repository of plurality.net, the website hosting _Plurality: Technol
 
 ## Design System
 
-Design decisions that have been made thus far recall that the website aspires to serve as a strong, uncomplicated foundation for diverse participation. These design decisions have therefore tried to optimise simplicity, clarity, and accessibility.
+Design decisions that have been made thus far recall that the website aspires to serve as a strong, uncomplicated foundation for diverse participation and reading. These design decisions have therefore tried to optimise for simplicity, clarity, and accessibility.
 
 #### Typography
 
-The website uses two fonts: Authentic Sans and Lanapixel.
+The website uses two fonts: (Authentic Sans)[https://authentic.website/sans], distributed freely under (WTFPL)[http://www.wtfpl.net/] and (Lanapixel)[https://opengameart.org/content/lanapixel-localization-friendly-pixel-font], distributed under (OFL)[./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt]. The former is used for body text, and the latter for nav items, headings, and other UI elements.
 
 #### Colors
 
-The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. The former is used for the backgrounds, the latter for the text elements. With the exception of the landing page, the user is able to toggle between light and dark mode, switching the values of the root variables `--primary-color` and `--secondary-color`.
+The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. The former is used for the backgrounds, the latter for the text elements. With the exception of while on the home page, users are able to toggle between light and dark mode, switching the values of the root variables `--primary-color` and `--secondary-color` in `main.css`.
 
 #### Layout and Navigation
 
-The layout of the site is, at least in principle, simple and straightforward. Each layout extends 'src/site/\_includes/layouts/base.njk'
+Each layout extends 'src/site/\_includes/layouts/base.njk':
 
-- The home page ('src/site/\_includes/layouts/home.njk') consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
-- The layout for the different language versions ('src/site/\_includes/layouts/version.njk') of the book consists of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content. 
-- The layout for the about page ('src/site/\_includes/layouts/about.njk') consists of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains the about page's content.
+- The home page (`src/site/\_includes/layouts/home.njk`) consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
+- The layout for the different language versions (`src/site/\_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content.
+- The layout for the about page (`src/site/\_includes/layouts/about.njk`) consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains the about page's content.
 
 #### Interactive Characters
+
+The home page features two interactive characters: the ideographic characters for digital and plural, 數位, rendered using p5.js. The characters are composed of circles that, on load, are scarcely distributed across the canvas. They are then animated to move towards their final positions, where they are distributed in a grid-like pattern, as the user scrolls down the page. The characters are rendered using the (p5.js library)[https://p5js.org/], and the code for the characters can be found in `src/site/\_includes/js/interacitive-characters.js`.
 
 ## Codebase
 
