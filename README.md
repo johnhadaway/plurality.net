@@ -1,5 +1,5 @@
 <div align="center" style="margin-top: 5px; margin-bottom: 10px;">
-  <a href="plurality.net"><img alt="Plurality.net" src="./docs/img/plurality-landing.gif" width="60%"></a>
+  <a href="plurality.net"><img alt="Plurality.net" src="./docs/img/plurality-landing.gif" width="40%"></a>
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
@@ -24,7 +24,7 @@ The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. Th
 Each layout extends 'src/site/\_includes/layouts/base.njk':
 
 - The home page (`src/site/\_includes/layouts/home.njk`) consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
-- The layout for the different language versions (`src/site/\_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content.
+- The layout for the different language versions (`./src/site/\_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content.
 - The layout for the about page (`src/site/\_includes/layouts/about.njk`) consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains the about page's content.
 
 #### Interactive Characters
