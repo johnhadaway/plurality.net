@@ -1,25 +1,14 @@
 {
   "name": "plurality.net",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Plurality: Technology for Collaborative Diversity and Democracy",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnhadaway/plurality.net.git"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnhadaway/plurality.net/issues"
-  },
-  "homepage": "https://github.com/johnhadaway/plurality.net#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "eleventy-plugin-nesting-toc": "^1.3.0",
