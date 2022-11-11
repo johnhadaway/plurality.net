@@ -13,7 +13,7 @@ Design decisions that have been made thus far recall that the website aspires to
 
 #### Typography
 
-The website uses two fonts: (Authentic Sans)[https://authentic.website/sans], distributed freely under (WTFPL)[http://www.wtfpl.net/] and (Lanapixel)[https://opengameart.org/content/lanapixel-localization-friendly-pixel-font], distributed under (OFL)[./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt]. The former is used for body text, and the latter for nav items, headings, and other UI elements.
+The website uses two fonts: [Authentic Sans](https://authentic.website/sans), distributed freely under [WTFPL](http://www.wtfpl.net/) and [Lanapixel](https://opengameart.org/content/lanapixel-localization-friendly-pixel-font), distributed under [OFL](./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt). The former is used for body text, and the latter for nav items, headings, and other UI elements.
 
 #### Colors
 
@@ -29,7 +29,7 @@ Each layout extends 'src/site/\_includes/layouts/base.njk':
 
 #### Interactive Characters
 
-The home page features two interactive characters: the ideographic characters for digital and plural, 數位, rendered using p5.js. The characters are composed of circles that, on load, are scarcely distributed across the canvas. They are then animated to move towards their final positions, where they are distributed in a grid-like pattern, as the user scrolls down the page. The characters are rendered using the (p5.js library)[https://p5js.org/], and the code for the characters can be found in `src/site/\_includes/js/interacitive-characters.js`.
+The home page features two interactive characters: the ideographic characters for digital and plural, 數位, rendered using p5.js. The characters are composed of circles that, on load, are scarcely distributed across the canvas. They are then animated to move towards their final positions, where they are distributed in a grid-like pattern, as the user scrolls down the page. The characters are rendered using the [p5.js library](https://p5js.org/), and the code for the characters can be found in `src/site/\_includes/js/interacitive-characters.js`.
 
 ## Codebase
 
