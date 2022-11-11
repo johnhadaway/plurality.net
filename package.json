@@ -35,6 +35,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it-anchor": "^8.6.5",
     "markdown-it-toc-done-right": "^4.2.0",
+    "queue-microtask": "^1.2.3",
     "uslug": "^1.0.4"
   }
 }

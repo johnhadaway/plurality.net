@@ -1,6 +1,5 @@
 
 /* ELEMENTS RENDERED USING MACROS/NAV */
-
 #nav {
   position: fixed;
   top: var(--padding-step-2);
@@ -54,6 +53,9 @@
   text-decoration: none;
   font-size: var(--font-size-step-1);
   text-transform: uppercase;
+}
+
+#nav > * > a, #mobile-nav > * > a, #mobile-nav-overlay-wrapper > #mobile-nav-overlay > div > a {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -61,3 +63,99 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+
+/* ELEMENTS RENDERED USING MACROS/MOBILE-NAV */
+#mobile-nav {
+  display: none;
+  position: fixed;
+  top: var(--padding-step-2);
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#mobile-nav > #mobile-nav-left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: var(--padding-step-2);
+}
+
+#mobile-nav > #mobile-nav-left > a {
+  align-items: left;
+  margin-right: var(--padding-step-1);
+}
+
+#mobile-nav > #mobile-nav-right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: var(--padding-step-2);
+}
+
+#mobile-nav > #mobile-nav-right > a {
+  align-items: right;
+  margin-left: var(--padding-step-1);
+  text-align: right;
+}
+
+#mobile-nav > * > a {
+  display: flex;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: var(--font-size-step-1);
+  text-transform: uppercase;
+}
+
+#mobile-nav-overlay-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  z-index: 98;
+}
+
+#mobile-nav-overlay-wrapper > #mobile-nav-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+#mobile-nav-overlay-wrapper > #mobile-nav-overlay > div {
+  margin-bottom: var(--padding-step-2);
+}
+
+#mobile-nav-overlay-wrapper > #mobile-nav-overlay > div > a {
+  display: flex;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: var(--font-size-step-3);
+  line-height: var(--font-size-step-3);
+  text-transform: uppercase;
+}
+
+
+/* MOBILE HANDLING */
+@media screen and (max-width: 768px) {
+  #nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: flex;
+  }
+}
+

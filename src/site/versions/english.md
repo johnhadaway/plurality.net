@@ -1,27 +1,21 @@
 ---
-title: "Plurality: Technology for Collaborative Diversity and Democracy"
-githubLink: 
-dateStartedString: {
-  day: "01",
-  month: "08",
-  year: "2022"
-}
-translations: {
-  plurality: "Plurality",
-  subtitle: "Technology for Collaborative Diversity and Democracy",
-  authorsLead: "By Audrey Tang and E. Glen Weyl",
-  translatorsLead: "Translated by:",
-  return: "return"
-}
-language: {
-  en: "english",
-  iso6392B: "eng",
-  locale: "english"
-}
+title: 'Plurality: Technology for Collaborative Diversity and Democracy'
+githubLink:
+dateStartedString: { day: '01', month: '08', year: '2022' }
+translations:
+  {
+    plurality: 'Plurality',
+    subtitle: 'Technology for Collaborative Diversity and Democracy',
+    authorsLead: 'By Audrey Tang and E. Glen Weyl',
+    translatorsLead: 'Translated by:',
+    return: 'return',
+    chapters: 'chapters',
+  }
+language: { en: 'english', iso6392B: 'eng', locale: 'english' }
 translators: []
 ---
 
-Introducing and soliciting collaboration on *Plurality: Technology for Collaborative Diversity and Democracy*
+Introducing and soliciting collaboration on _Plurality: Technology for Collaborative Diversity and Democracy_
 
 We are about to embark on a journey and hope you will join us. Over the past half decade we have, in collaboration with so many of you, been developing an alternative to the usual narratives about the future of technology that focus on financialization or centralized artificial intelligence. Plurality, as we call it, is technology that recognizes, honors, and empowers cooperation across social and cultural differences. You can learn a bit more about it in the overview below. We believe Plurality is the natural technological paradigm to support the flourishing of democratic societies and can overcome many of the entrenched divisions in our world today. We want to tell the world about this possibility so we can stimulate the diverse and coordinated investment and experimentation that can make it a reality. And we want your help.
 
@@ -30,7 +24,6 @@ While our precise plan will evolve with the advances in Plurality research and p
 At the same time, as pluralists, we don’t want to reach only “web3 natives”, and as such we hope to make it a beautiful physical object, widely accessible, distributed and reviewed in standard publishing and media channels. Thus, we need not just hackers and writers, but also designers, storytellers, marketers, translators, publishers and so forth to work with us. And we understand that some of these will prefer more individual entitlements over governance rights on speculative potential cash flows, possibilities we are open to negotiating with partners who share our goals and vision along other dimensions. In any case, neither Audrey nor Glen will receive any compensation nor royalties for their work on the text, to comply with legal responsibilities associated with their employment and to ensure that any revenue supports our mission and the community we hope to build.
 
 We will soon be debuting the software platform that will support our writing in public and managing of participation, but if you perceive a way you want to contribute prior to that, please feel free to [write to Glen](mailto:glen@radicalxchange.org). The future of technology can honor and support the values we hold dear if we work together to imagine and explain it.
-
 
 # OVERVIEW
 
@@ -159,4 +152,4 @@ Below is an outline divided into parts and chapters. Each chapter lists estimate
   </li>
 </ol>
 
-*This post is licensed under CC0, no rights reserved*
+_This post is licensed under CC0, no rights reserved_

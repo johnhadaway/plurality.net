@@ -1,27 +1,21 @@
 ---
-title: "Pluralisme: Technologie pour une diversité coopérative et démocratique"
-githubLink: 
-dateStartedString: {
-  day: "01",
-  month: "08",
-  year: "2022"
-}
-translations: {
-  plurality: "Pluralisme",
-  subtitle: "Technologie pour une diversité coopérative et démocratique",
-  authorsLead: "Audrey Tang, E. Glen Weyl",
-  translatorsLead: "Translated by:",
-  return: "return"
-}
-language: {
-  en: "french",
-  iso6392B: "fra",
-  locale: "Français"
-}
+title: 'Pluralisme: Technologie pour une diversité coopérative et démocratique'
+githubLink:
+dateStartedString: { day: '01', month: '08', year: '2022' }
+translations:
+  {
+    plurality: 'Pluralisme',
+    subtitle: 'Technologie pour une diversité coopérative et démocratique',
+    authorsLead: 'Audrey Tang, E. Glen Weyl',
+    translatorsLead: 'Translated by:',
+    return: 'return',
+    chapters: 'chapitres',
+  }
+language: { en: 'french', iso6392B: 'fra', locale: 'Français' }
 translators: [Daniel Alsterholm]
 ---
 
-Une introduction et un appel à la coopération pour la rédaction du texte - *Pluralisme: Technologie pour une diversité coopérative et démocratique.*
+Une introduction et un appel à la coopération pour la rédaction du texte - _Pluralisme: Technologie pour une diversité coopérative et démocratique._
 
 Nous sommes sur le chemin, depuis déjà une demi-décennie et avec le soutien de plusieurs de vous-mêmes, à développer une alternative aux récits prédominants sur le futur de la technologie trop centré sur le monde de la finance et l’intelligence artificielle centralisée. Pluralité, comme nous l’appelons, est la technologie qui reconnaît, met en valeur, habilite et renforce la coopération à travers des différences sociales et culturelles. Ci-dessous suit un résumé qui vous offre les principales lignes de cette idée. Nous croyons que la pluralité est le paradigme technologique naturel pour soutenir l’épanouissement des sociétés démocratiques et peut surmonter bon nombre des divisions enracinées dans notre monde d’aujourd’hui. Nous voulons informer le monde de cette possibilité afin de stimuler les investissements et les expérimentations divers et coordonnés qui peuvent en faire une réalité. Et nous aurions besoin d’un coup de main.
 
@@ -30,7 +24,6 @@ Alors que notre plan précis évoluera avec les progrès de la recherche sur la 
 En même temps, en tant que pluralistes, nous ne voulons pas toucher uniquement les “natifs du web3”, et à ce titre nous espérons en faire un véritable livre, beau à regarder, largement accessible, diffusé et revu dans les canaux éditoriaux et médiatiques standards. Ainsi, nous avons besoin non seulement de hackers et d’écrivains, mais aussi de designers, de raconteurs, de spécialistes du marketing, de traducteurs, d’éditeurs, etc. pour travailler avec nous. Et nous comprenons que certains d’entre eux préféreront davantage de droits individuels aux droits de gouvernance sur les flux de trésorerie potentiels spéculatifs, des possibilités que nous sommes ouverts à négocier avec des partenaires qui partagent nos objectifs et notre vision dans d’autres dimensions. Dans tous les cas, ni Audrey ni Glen ne recevront de compensation ou des redevances pour leur travail sur le texte, pour se conformer aux responsabilités légales associées à leur emploi et pour s’assurer que tout revenu soutient notre mission et la communauté que nous espérons construire.
 
 Nous lancerons bientôt la plate-forme logicielle qui prendra en charge notre écriture en public et la gestion de la participation, mais si vous percevez une manière dont vous souhaitez contribuer avant cela, n’hésitez pas à [écrire à Glen](mailto:glen@radicalxchange.org). L’avenir de la technologie peut honorer et soutenir les valeurs qui nous sont chères si nous travaillons ensemble pour l’imaginer et l’expliquer.
-
 
 # APERÇU
 
@@ -159,5 +152,4 @@ Vous trouverez ci-dessous un plan divisé en parties et chapitres. Chaque chapit
   </li>
 </ol>
 
-*Ce message est sous licence CC0, aucun droit réservé*
-
+_Ce message est sous licence CC0, aucun droit réservé_

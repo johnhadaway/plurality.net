@@ -78,6 +78,7 @@
   display: inline-block;
 }
 
+
 /* INTERACTIVE TYPE DIV */
 #interactive-type {
   position: fixed;
@@ -94,3 +95,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+/* MOBILE HANDLING */
+@media screen and (max-width: 768px) {
+  #interactive-type {
+    width: 100%;
+  }
+  #version-menu > #version-ol {
+    padding: 25vh 0 10vh calc(var(--padding-step-4));
+  }
+}
+  

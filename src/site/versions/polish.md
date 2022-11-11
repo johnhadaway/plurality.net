@@ -1,27 +1,21 @@
 ---
-title: "Pluralność: Technologia na rzecz współpracy w zakresie różnorodności i demokracji"
-githubLink: 
-dateStartedString: {
-  day: "01",
-  month: "08",
-  year: "2022"
-}
-translations: {
-  plurality: "Pluralność",
-  subtitle: "Technologia na rzecz współpracy w zakresie różnorodności i demokracji",
-  authorsLead: "Audrey Tang and E. Glen Weyl",
-  translatorsLead: "Translated by:",
-  return: "return"
-}
-language: {
-  en: "polish",
-  iso6392B: "pol",
-  locale: "polski"
-}
+title: 'Pluralność: Technologia na rzecz współpracy w zakresie różnorodności i demokracji'
+githubLink:
+dateStartedString: { day: '01', month: '08', year: '2022' }
+translations:
+  {
+    plurality: 'Pluralność',
+    subtitle: 'Technologia na rzecz współpracy w zakresie różnorodności i demokracji',
+    authorsLead: 'Audrey Tang and E. Glen Weyl',
+    translatorsLead: 'Translated by:',
+    return: 'return',
+    chapters: 'rozdziały',
+  }
+language: { en: 'polish', iso6392B: 'pol', locale: 'polski' }
 translators: [Michał Joji, Marta Brewer]
 ---
 
-Wprowadzenie i zachęta do współpracy: *Pluralność: Technologia na rzecz współpracy w zakresie różnorodności i demokracji*
+Wprowadzenie i zachęta do współpracy: _Pluralność: Technologia na rzecz współpracy w zakresie różnorodności i demokracji_
 
 Wkrótce wyruszymy w podróż i mamy nadzieję, że do nas dołączycie. Przez ostatnie pół dekady, we współpracy z wieloma z Was, budowaliśmy alternatywę dla powszechnych opowiadań o przyszłości technologii, które skupiają się na dominacji systemów finansowych lub na scentralizowanej sztucznej inteligencji. Pluralność, jak ją nazywamy, to technologia, która umożliwia, rozpoznaje i honoruje współpracę ponad podziałami społecznymi i różnicami kulturowymi. Poniżej możecie przeczytać nieco więcej na ten temat w zarysie ogólnym. Wierzymy, że pluralizm jest naturalnym paradygmatem w dziedzinie technologii, wspierającym rozkwit demokratycznych społeczeństw, który może przezwyciężyć wiele zakorzenionych podziałów w naszym dzisiejszym świecie. Chcemy powiedzieć światu o takiej alternatywie, aby pobudzić różnorodne, aczkolwiek skoordynowane inwestycje i eksperymenty, które mogą sprawić, że stanie się ona rzeczywistością. I liczymy na Waszą pomoc.
 
@@ -30,7 +24,6 @@ Podczas gdy nasz dokładny plan będzie ewoluował wraz z postępem badań nad p
 Jednocześnie, jako pluraliści, nie chcemy, aby projekt swym zasięgiem objął tylko „tubylców Web3” i mamy nadzieję ubrać jego treść w piękną szatę, czyniąc z niego obiekt szeroko dostępny i recenzowany w znanych wydawnictwach i mediach. Dlatego potrzebujemy nie tylko hakerów i pisarzy, ale także projektantów, gawędziarzy, marketingowców, tłumaczy, wydawców itp. Rozumiemy, że niektórzy z nich będą bardziej woleli zindywidualizowane zachęty niż prawo do dysponowania potencjalnymi, przyszłymi przepływami pieniężnymi, dlatego jesteśmy otwarci na negocjacje różnych opcji z wszystkimi, którzy podzielają nasze cele i wizję w innych wymiarach. W każdym razie, zgodnie z obostrzeniami prawnymi związanymi z ich zatrudnieniem, ani Audrey Tang, ani Glen Weyl nie otrzymają żadnego wynagrodzenia ani tantiem za swoją pracę nad tekstem. Ma to również zagwarantować, że wszelkie przychody wesprą naszą misję i społeczność, którą mamy nadzieję stworzyć.
 
 Wkrótce uruchomimy platformę, która będzie wspierała proces naszego wspólnego, otwartego dla wszystkich pisania książki oraz zarządzania uczestnictwem w tym dziele, ale jeśli już dziś widzisz sposób, w jaki chciałbyś zaangażować się w ten projekt, napisz na adres [Glen](mailto:glen@radicalxchange.org). Przyszłość technologii może uhonorować i wspierać wartości, które są nam drogie, jeśli ją sobie wyobrazimy i wyjaśnimy na gruncie współpracy
-
 
 # ZARYS OGÓLNY
 
@@ -158,4 +151,3 @@ Poniższy konspekt dzieli się na części i rozdziały. Dla każdego rozdziału
     </ol>
   </li>
 </ol>
-

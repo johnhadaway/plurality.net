@@ -1,27 +1,31 @@
 ---
-title: "多元宇宙: 數位協作與民主的科技典範"
-githubLink: 
-dateStartedString: {
-  day: "01",
-  month: "08",
-  year: "2022"
-}
-translations: {
-  plurality: "多元宇宙",
-  subtitle: "數位協作與民主的科技典範",
-  authorsLead: "由唐鳳及格倫·韋爾著作",
-  translatorsLead: "Translated by:",
-  return: "return",
-}
-language: {
-  en: "chinese",
-  iso6392B: "chi",
-  locale: "華文"
-}
-translators: [Noah Yeh, Jacky Wang, Vivian Chen, Isabel Hou, Elena Chen, Gisele Chou, KC Chen, Stamford Hwang]
+title: '多元宇宙: 數位協作與民主的科技典範'
+githubLink:
+dateStartedString: { day: '01', month: '08', year: '2022' }
+translations:
+  {
+    plurality: '多元宇宙',
+    subtitle: '數位協作與民主的科技典範',
+    authorsLead: '由唐鳳及格倫·韋爾著作',
+    translatorsLead: 'Translated by:',
+    return: 'return',
+    chapters: '章节',
+  }
+language: { en: 'chinese', iso6392B: 'chi', locale: '華文' }
+translators:
+  [
+    Noah Yeh,
+    Jacky Wang,
+    Vivian Chen,
+    Isabel Hou,
+    Elena Chen,
+    Gisele Chou,
+    KC Chen,
+    Stamford Hwang,
+  ]
 ---
 
-*多元宇宙：數位協作與民主的科技典範*
+_多元宇宙：數位協作與民主的科技典範_
 
 內文介紹並尋求各界協作
 
@@ -36,7 +40,6 @@ translators: [Noah Yeh, Jacky Wang, Vivian Chen, Isabel Hou, Elena Chen, Gisele 
 我們倡導多元，因此不只希望接觸到 「web3 原生社群」，更希望本書可以成為一份美麗的實體物件，在傳統的媒體及發行場域中也能廣泛被接受、發行及反饋。我們不只需要黑客與作家，我們也需要設計師、說故事的人、行銷人及發行商來跟我們合作。我們同時也理解這些合作單位可能會偏好某些獨家權利，多過於未來現金流的治理權。對於擁有共同目標及願景的夥伴，我們在協商時會開放迎接各種可能性。但在任何情況下，唐鳳、格倫為本書撰寫文字，都不會收取任何報酬或是版稅，以符合伴隨他們職位的法律規範；營收只會用來支持我們盼望建立的社群與公益使命。
 
 我們很快會將開放寫作及參與管理的平台公諸於世。如果你想要提前貢獻，[請寫信到 Glen](mailto:glen@radicalxchange.org)。如果我們能共同想像及解釋，科技的未來就有可能認同也支持我們所珍惜的價值。
-
 
 # 概述
 

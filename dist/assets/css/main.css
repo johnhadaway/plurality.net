@@ -40,6 +40,7 @@
   --font-family-alt: 'authentic-sans', monospace;
 }
 
+
 /* UNIVERSAL STYLE DECLARATIONS */
 * {
   margin: 0;
@@ -52,8 +53,27 @@
   font-weight: 500;
 }
 
-/* HIGHLIGHTED TEXt */
+
+/* HIGHLIGHT SELECTED TEXT */
 ::selection {
   background: var(--secondary-color);
   color: var(--primary-color);
+}
+
+
+/* MOBILE HANDLING */
+@media screen and (max-width: 768px) {
+  :root {
+    --font-size-step-0: 0.625rem;
+    --font-size-step-1: 0.75rem;
+    --font-size-step-2: 0.75rem;
+    --font-size-step-3: 1rem;
+    --font-size-step-4: 1.75rem;
+    --font-size-step-5: 2.1rem;
+    --padding-step-1: 0.3125rem;
+    --padding-step-2: 0.625rem;
+    --padding-step-3: 1.5625rem;
+    --padding-step-4: 3.125rem;
+    --padding-step-5: 6.25rem;
+  }
 }

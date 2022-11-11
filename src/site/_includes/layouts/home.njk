@@ -1,4 +1,5 @@
 {%- from 'macros/nav.njk' import renderNav -%}
+{%- from 'macros/mobile-nav.njk' import renderMobileNav -%}
 {% extends "layouts/base.njk" %}
 
 {% block headerScripts %}
@@ -33,15 +34,43 @@
     }
   ]
   ) }}
+  {{ renderMobileNav(
+    leftData = [
+      { 
+        toggleOverlay: true
+      }
+    ],
+    rightData = [
+      {
+        title: 'Plurality: Technology for Collaborative Diversity and Democracy',
+        path: '#'
+      }
+    ],
+    overlayData = [
+      {
+        title: 'About',
+        path: '/about'
+      },
+      {
+        title: 'Announcement',
+        path: 'https://www.radicalxchange.org/media/blog/plurality-technology-for-collaborative-diversity-and-democracy/',
+        external: true
+      },
+      {
+        title: 'Twitter',
+        path: 'https://twitter.com/pluralitybook',
+        external: true
+      }
+    ]
+  ) }}
 {% endblock %}
 
 {% block mainColContent %}
-  {%- include 'partials/version-menu.njk' -%}
+  {{ content | safe }}
 {% endblock %}
 
 {% block extraneousContent %}
-  <div id="interactive-type">
-  </div>
+  <div id="interactive-type"></div>
 {% endblock %}
 
 {% block footer %}{% endblock %}

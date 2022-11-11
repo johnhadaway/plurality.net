@@ -21,11 +21,18 @@ if (document.getElementById('nav-right')) {
     darkMode.innerHTML = darkMode.innerHTML === 'Light Mode' ? 'Dark Mode' : 'Light Mode';
     switchMode();
   });
-  window.addEventListener('keydown', function (e) {
-    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      darkMode.innerHTML = darkMode.innerHTML === 'Light Mode' ? 'Dark Mode' : 'Light Mode';
-      switchMode();
-    }
-  });
 };
+
+if (document.getElementById('mobile-nav-right')) {
+  const mobileNavRight = document.getElementById('mobile-nav-right');
+  const darkMode = document.createElement('a');
+  darkMode.classList.add('nav-item');
+  darkMode.href = '#';
+  darkMode.innerHTML = 'Light Mode';
+  mobileNavRight.appendChild(darkMode);
+  darkMode.addEventListener('click', function (e) {
+    e.preventDefault();
+    darkMode.innerHTML = darkMode.innerHTML === 'Light Mode' ? 'Dark Mode' : 'Light Mode';
+    switchMode();
+  });
+}

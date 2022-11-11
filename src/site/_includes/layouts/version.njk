@@ -1,10 +1,22 @@
 {%- from 'macros/nav.njk' import renderNav -%}
+{%- from 'macros/mobile-nav.njk' import renderMobileNav -%}
 {% extends "layouts/base.njk" %}
 
 {% block headerScripts %}{% endblock %}
 
 {% block topNav %}
   {{ renderNav(
+  leftData = [
+    {
+      title: translations.return,
+      path: "/",
+      return: true
+    }
+  ],
+  centreData = [],
+  rightData = []
+  ) }}
+  {{ renderMobileNav(
   leftData = [
     {
       title: translations.return,

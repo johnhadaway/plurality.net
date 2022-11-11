@@ -1,29 +1,23 @@
 ---
-title: "Plurality: 협력적 다양성과 민주주의를 위한 기술"
-githubLink: 
-dateStartedString: {
-  day: "01",
-  month: "08",
-  year: "2022"
-}
-translations: {
-  plurality: "Plurality",
-  subtitle: "협력적 다양성과 민주주의를 위한 기술",
-  authorsLead: "Audrey Tang, E. Glen Weyl",
-  translatorsLead: "Translated by:",
-  return: "return"
-}
-language: {
-  en: "korean",
-  iso6392B: "kor",
-  locale: "한국어"
-}
+title: 'Plurality: 협력적 다양성과 민주주의를 위한 기술'
+githubLink:
+dateStartedString: { day: '01', month: '08', year: '2022' }
+translations:
+  {
+    plurality: 'Plurality',
+    subtitle: '협력적 다양성과 민주주의를 위한 기술',
+    authorsLead: 'Audrey Tang, E. Glen Weyl',
+    translatorsLead: 'Translated by:',
+    return: 'return',
+    chapters: 'chapters',
+  }
+language: { en: 'korean', iso6392B: 'kor', locale: '한국어' }
 translators: [Haju Jang]
 ---
 
 새로운 기술 패러다임에 대한 개념을 소개하고 협력을 구하는 글
 
-*Plurality: 협력적 다양성과 민주주의를 위한 기술*
+_Plurality: 협력적 다양성과 민주주의를 위한 기술_
 
 지금 시작되려는 이 여정에 여러분이 함께 하기를 원합니다. 우리는 지난 수년간 많은 이들과의 협업을 통해 기술의 미래에 대한 이야기의 초점이 금융의 영역 확장이나, 중앙집중화된 인공지능에 맞춰지는 일반화된 행태를 바꾸기 위해 노력해 왔습니다. 이제 우리가 Plurality(다원성)라고 부르는 것은 사회적, 문화적 차이를 넘어 협력과 공존의 가능성을 인지하고, 증진하고, 강화하는 하나의 기술입니다. 이에 대해서는 아래의 개요에서 좀 더 자세히 설명하고 있습니다. 우리는 Plurality가 민주적 사회를 융성하게 할 뿐만 아니라 오늘날 우리가 겪고 있는 뿌리깊은 분열을 극복하려면 자연스럽게 떠올릴 수밖에 없는 기술적 패러다임이라고 믿습니다. 우리는 이 가능성을 세상에 알려서 이를 현실로 만들어 줄 다양하고 조화로운 투자와 여러 실험들을 유도하고자합니다. 그리고 무엇보다 우리는 여러분의 도움이 필요합니다.
 
@@ -32,7 +26,6 @@ translators: [Haju Jang]
 다원주의자로서 우리는 “Web3 네이티브”에게만 다가가기를 원하지 않고, 이 책이 실물로도 아름답고, 접하기 쉬울 뿐만 아니라, 표준 출판 및 미디어 유통채널을 통해서 배포되고 리뷰되기를 원합니다. 그렇기 때문에 우리에게는 단지 해커와 작가만 필요한 것이 아니라 디자이너, 스토리텔러, 마케터, 번역가, 출판인 등이 필요합니다. 이러한 참여자들 중 일부는 불확실하고(speculative) 잠재적인 현금흐름에 대한 거버넌스 권한보다는 개별적인 권리를 더 선호한다는 것도 잘 이해하고 있으며, 따라서 다른 차원에서라도 우리의 목표와 비전을 공유하는 파트너와의 협상에 우리가 언제나 열려 있다는 점을 말씀드리고 싶습니다. Audrey와 Glen은 그들의 고용과 관련된 법적 책임을 준수하고, 우리가 만들고자 하는 커뮤니티와 그 미션의 성취를 위해 필요한 재정을 확보하기 위해서, 어떠한 경우라도 작업에 대한 개인적 보상이나 로열티를 받지 않을 것입니다.
 
 곧 공개적인 글 작성 등 참여과정을 관리하는 소프트웨어 플랫폼을 선보일 예정이나, 그전에 언제라도 기여하고 싶은 아이디어가 있다면 [이메일을 보내 주십시오](mailto:glen@radicalxchange.org). 우리가 기술의 미래를 함께 상상하고 함께 구체화해(explain) 나갈 때, 기술이 우리의 소중한 가치를 고취하는 동시에 실현가능하게 합니다.
-
 
 # 개요
 

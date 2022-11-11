@@ -1,6 +1,8 @@
 <div id="version-wrapper">
   <div id="version-index">
-    {{ content | toc | safe }}
+    <div id="version-index-content">{{ content | toc | safe }}</div>
+    <div id="version-index-toggle-mobile"><a>{% if translations.chapters %}{{translations.chapters}} (+){% else %}Sections (+){% endif %}</a></div>
+    <div id="version-index-content-mobile">{{ content | toc | safe }}</div>
   </div>
   <div id="version-content">
     <div id="version-data">
@@ -34,3 +36,27 @@
     </div>
   </div>
 </div>
+<script>
+  var versionIndexToggled = false;
+  
+  document.querySelector('#version-index-toggle-mobile a').addEventListener("click", function() {
+    if (versionIndexToggled) {
+      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (+)";
+      document.getElementById("version-index-content-mobile").style.display = "none";
+      versionIndexToggled = false;
+    } else {
+      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (-)";
+      document.getElementById("version-index-content-mobile").style.display = "block";
+      versionIndexToggled = true;
+    }
+  });
+
+  var links = document.querySelectorAll('#version-index-content-mobile a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function() {
+      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (+)";
+      document.querySelector("#version-index-content-mobile").style.display = "none";
+      versionIndexToggled = false;
+    });
+  }
+</script>
