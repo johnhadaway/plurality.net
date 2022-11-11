@@ -21,11 +21,11 @@ The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. Th
 
 #### Layout and Navigation
 
-The layout of the site is, at least in principle, simple and straightforward.
+The layout of the site is, at least in principle, simple and straightforward. Each layout extends 'src/site/\_includes/layouts/base.njk'
 
-- The landing page consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
-- The layout for the different language versions of the book is also simple, consisting of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains the book's content and a table of contents.
-- The layout for the about page consists of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains the about page's content.
+- The home page ('src/site/\_includes/layouts/home.njk') consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different language versions of the book.
+- The layout for the different language versions ('src/site/\_includes/layouts/version.njk') of the book consists of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content. 
+- The layout for the about page ('src/site/\_includes/layouts/about.njk') consists of a top navigation bar that allows users to return to the landing page and switch between light and dark mode, and a main content area that contains the about page's content.
 
 #### Interactive Characters
 
@@ -37,7 +37,7 @@ The site is built on Eleventy/11ty, and primarily uses Nunjucks for templating. 
 
 #### Structure
 
-The code layout is heavily influenced by that of the RadicalxChange Foundation's website ([repo](https://github.com/RadicalxChange/www])), as it exists in 10/2022. Important facets of the codebase's structure are described below:
+The structure of the codebase is heavily influenced by that of the RadicalxChange Foundation's website ([repo](https://github.com/RadicalxChange/www])), as it exists in 10/2022. Important facets of the codebase's structure are described below:
 
 - 'src/site' contains the source code for the site, which is written into the 'dist' folder.
 - 'src/site/\_includes' contains reusable components, and is divided into the following sub-folders: 'js', 'macros', 'css', 'layouts', and 'partials'.
