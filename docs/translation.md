@@ -2,7 +2,7 @@
   <h1>Publishing/editing a translation</h1>
 </div>
 
-This guide will describe the structure of the replicable and editable markdown files hosting the translations of _Plurality: Technology for Collaborative Diversity and Democracy_.
+This guide describes the syntax that the replicable and editable markdown files hosting the translations of _Plurality: Technology for Collaborative Diversity and Democracy_ support. 
 
 ## Supported syntax
 
