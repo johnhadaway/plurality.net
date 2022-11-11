@@ -5,8 +5,3 @@ window.addEventListener('beforeunload', function () {
 window.addEventListener('load', function () {
   document.querySelector("#main-col").scrollTop = sessionStorage.getItem('scrollPosition');
 });
-
-
-
-
-

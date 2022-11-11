@@ -3,13 +3,13 @@
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
-This is the repository of plurality.net, the website hosting _Plurality: Technology for Collaborative Diversity and Democracy_, a book written by Audrey Tang and E. Glen Weyl. Its goal is to provide a place for people read the book, as well as to welcome — and eventually manage — participation from the community.
+This is an early version plurality.net, _Plurality: Technology for Collaborative Diversity and Democracy_'s website. The goal of the website is to provide a place for people read the book, and to welcome — and eventually manage — participation in the project.
 
 ## Contributing
 
 #### Development
 
-Run `npm ci` to clean install dependencies, then `npm run start` to serve the site at `localhost:8080` and `npm run build` to otherwise write `src` files to `dist`.
+Run `npm ci` to clean install dependencies from `package-lock.json` or run `npm install` to install dependencies from `package.json`, then run `npm run start` to serve the site at `localhost:8080` or `npm run build` to otherwise write `src` files to `dist`.
 
 #### Translations
 
@@ -25,14 +25,14 @@ The website uses two fonts: [Authentic Sans](https://authentic.website/sans), di
 
 #### Colors
 
-The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. The former is used for the backgrounds, the latter for the text elements. In the about and translation pages, users are able to toggle between light and dark mode,
+The color pallete is minimal, using only two colors: `#000000` and `#ffffff`. The former is used for the backgrounds, the latter for the text elements. In the about and translation pages, users are able to toggle between light and dark mode.
 
 #### Layout and Navigation
 
-Each layout extends `src/site/_includes/layouts/base.njk`:
+Each core layout extends `src/site/_includes/layouts/base.njk`:
 
 - The home page (`src/site/_includes/layouts/home.njk`) consists of three components: a top navigation bar that links to the about page and relevant external URLs, an interactive p5.js render of the ideographic characters for digital and plural, 數位, and a menu of all of the different translations of the book.
-- The layout for the different translations (`./src/site/_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains a table of contents and the book's content.
+- The layout for the different translations (`./src/site/_includes/layouts/version.njk`) of the book consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains both the book's content and its navigational table of contents.
 - The layout for the about page (`src/site/_includes/layouts/about.njk`) consists of a top navigation bar that allows users to return to the home page and switch between light and dark mode, and a main content area that contains the about page's content.
 
 #### Interactive Characters
