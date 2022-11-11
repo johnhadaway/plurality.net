@@ -2,10 +2,6 @@
   <h1>Publishing/editing a translation</h1>
 </div>
 
-This guide will described how to publish or edit a translation of _Plurality: Technology for Collaborative Diversity and Democracy_.
+This guide will described the structure of the replicable and editable markdown files hosting the translations of _Plurality: Technology for Collaborative Diversity and Democracy_.
 
-## Supported syntax for Markdown
-
-## Publishing a translation
-
-## Editing a translation
+## Supported syntax
