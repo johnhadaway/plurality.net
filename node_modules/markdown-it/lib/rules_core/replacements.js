@@ -13,19 +13,18 @@
 
 // TODO:
 // - fractionals 1/2, 1/4, 3/4 -> ½, ¼, ¾
-// - miltiplication 2 x 4 -> 2 × 4
+// - multiplications 2 x 4 -> 2 × 4
 
 var RARE_RE = /\+-|\.\.|\?\?\?\?|!!!!|,,|--/;
 
 // Workaround for phantomjs - need regex without /g flag,
 // or root check will fail every second time
-var SCOPED_ABBR_TEST_RE = /\((c|tm|r|p)\)/i;
+var SCOPED_ABBR_TEST_RE = /\((c|tm|r)\)/i;
 
-var SCOPED_ABBR_RE = /\((c|tm|r|p)\)/ig;
+var SCOPED_ABBR_RE = /\((c|tm|r)\)/ig;
 var SCOPED_ABBR = {
   c: '©',
   r: '®',
-  p: '§',
   tm: '™'
 };
 
