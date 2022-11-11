@@ -3,7 +3,7 @@
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
-This is the repository of plurality.net, the website hosting _Plurality: Technology for Collaborative Diversity and Democracy_, a book written by Audrey Tang and E. Glen Weyl. Its goal is to provide a space for people to learn about ideas in the book, as well as to welcome — and eventually manage — diverse participation from the community.
+This is the repository of plurality.net, the website hosting _Plurality: Technology for Collaborative Diversity and Democracy_, a book written by Audrey Tang and E. Glen Weyl. Its goal is to provide a place for people read the book, as well as to welcome — and eventually manage — participation from the community.
 
 ## Contributing
 
