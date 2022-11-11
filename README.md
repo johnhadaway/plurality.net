@@ -3,7 +3,7 @@
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
-This is an early version plurality.net, _Plurality: Technology for Collaborative Diversity and Democracy_'s website. The goal of the website is to provide a place for people read the book, and to welcome — and eventually manage — participation in the project.
+This is an early version of plurality.net, _Plurality: Technology for Collaborative Diversity and Democracy_'s website. The goal of the website is to provide a place for people read the book, and to welcome — and eventually manage — participation in the project.
 
 ## Contributing
 
