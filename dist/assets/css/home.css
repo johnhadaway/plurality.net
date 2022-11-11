@@ -10,7 +10,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 10vh calc(var(--padding-step-4)*2);
+  padding: var(--top-offset) 0 calc(var(--top-offset)/2) calc(var(--padding-step-4)*2);
 }
 
 #version-menu > #version-ol > * {
@@ -103,7 +103,7 @@
     width: 100%;
   }
   #version-menu > #version-ol {
-    padding: 25vh 0 10vh calc(var(--padding-step-4));
+    padding: var(--top-offset) 0 calc(var(--top-offset)/2) calc(var(--padding-step-4));
   }
 }
   

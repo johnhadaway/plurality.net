@@ -7,7 +7,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 25vh 0 10vh calc(var(--padding-step-4)*2);
+  padding: var(--top-offset) 0 calc(var(--top-offset)/2) calc(var(--padding-step-4)*2);
 }
 
 #about-wrapper > #about-content > #plurality-logo {
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 768px) {
   #about-wrapper > #about-content {
-    padding: 25vh 0 10vh calc(var(--padding-step-4));
+    padding: var(--top-offset) 0 calc(var(--top-offset)/2) calc(var(--padding-step-4));
   }  
   #about-wrapper > #about-content > #plurality-logo > #plurality-logo-text {
     font-size: calc(var(--font-size-step-5));
