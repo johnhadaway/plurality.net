@@ -1,5 +1,5 @@
 <div align="center" style="margin-top: 5px; margin-bottom: 10px;">
-  <a href="plurality.net"><img alt="Plurality.net" src="./docs/img/plurality-landing.gif" width="40%"></a>
+  <a href="https://plurality.net"><img alt="Plurality.net" src="./docs/img/plurality-landing.gif" width="40%"></a>
   <h1>Welcome to Plurality.net!</h1>
 </div>
 
@@ -13,7 +13,7 @@ Design decisions that have been made thus far recall that the website aspires to
 
 #### Typography
 
-The website uses two fonts: [Authentic Sans](https://authentic.website/sans), distributed freely under [WTFPL](http://www.wtfpl.net/), and [Lanapixel](https://opengameart.org/content/lanapixel-localization-friendly-pixel-font), distributed under [OFL](./src/site/_data/fonts/LanaPixel_OpenFontLicense.txt). The former is used for body text, and the latter for nav items, headings, and other UI elements.
+The website uses two fonts: [Authentic Sans](https://authentic.website/sans), distributed freely under [WTFPL](http://www.wtfpl.net/), and [Lanapixel](https://opengameart.org/content/lanapixel-localization-friendly-pixel-font), distributed under [OFL](./src/site/_data/fonts/lanapixel/LanaPixel_OpenFontLicense.txt). The former is used for body text, and the latter for nav items, headings, and other UI elements.
 
 #### Colors
 
