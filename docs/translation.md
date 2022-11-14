@@ -2,7 +2,7 @@
   <h1>Publishing/editing a translation</h1>
 </div>
 
-This guide describes the syntax that the markdown files hosting the translations of _Plurality: Technology for Collaborative Diversity and Democracy_ support. 
+This guide describes the syntax that the markdown files hosting the translations of _Plurality: Technology for Collaborative Diversity and Democracy_ support.
 
 ## Supported syntax
 
@@ -64,19 +64,19 @@ Text following the [link text](link url) pattern renders as a link in the Authen
 
 ```
 ---
-title: { title }
-githubLink: { link to the file, hosted on GitHub }
-dateStartedString: { day: '{ day }', month: '{ month }', year: '{ year }' }
+title: <title>
+githubLink: <link to the file, hosted on GitHub>
+dateStartedString: { day: <day>, month: <month>, year: <year> }
 translations:
   {
-    plurality: '{ plurality translation }',
-    subtitle: '{ subtitle translation }',
-    authorsLead: { translation of the sentence introducing the authors, including the names of the authors },
-    translatorsLead: { translation of the text preceding the list of translators, i.e "Translated by" },
-    return: { translation of a word indicating "return to previous page" },
-    chapters: { translation of a word indicating "chapters" },
+    plurality: <plurality translation>,
+    subtitle: <subtitle translation>,
+    authorsLead: <translation of the sentence introducing the authors, including the names of the authors>,
+    translatorsLead: <translation of the text preceding the list of translators, i.e "Translated by">,
+    return: <translation of a word indicating "return to previous page">,
+    chapters: <translation of a word indicating "chapters">,
   }
-language: { en: '{ language in english }', iso6392B: '{ language in iso 639-2B }', locale: '{ language in language of translations}' }
-translators: [{translators, comma-delineated}]
+language: { en: <language in english>, iso6392B: <language in iso 639-2B>, locale: <language in language of translations> }
+translators: [<translators, comma-delineated>]
 ---
 ```
