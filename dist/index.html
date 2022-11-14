@@ -1,23 +1,25 @@
 <html><head><title>plurality.net</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Plurality: Technology for Collaborative Diversity and Democracy"><link rel="stylesheet" href="/assets/css/main.css"><script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script><script src="/assets/js/interactive-characters.js"></script></head><body><div id="nav"><div id="nav-left"><a href="/about" class="top-nav-item">About</a></div><div id="nav-centre"><a href="#" class="top-nav-item">Plurality: Technology for Collaborative Diversity and Democracy</a></div><div id="nav-right"><a target="_blank" href="https://www.radicalxchange.org/media/blog/plurality-technology-for-collaborative-diversity-and-democracy/" class="top-nav-item">Announcement &#8599;&#xFE0E;</a> <a target="_blank" href="https://twitter.com/pluralitybook" class="top-nav-item">Twitter &#8599;&#xFE0E;</a></div></div><div id="mobile-nav" class="mobile"><div id="mobile-nav-left"><a class="toggle-overlay">Menu (+)</a></div><div id="mobile-nav-right"><a href="#" class="top-nav-item">Plurality: Technology for Collaborative Diversity and Democracy</a></div></div><div id="mobile-nav-overlay-wrapper"><div id="mobile-nav-overlay"><div><a href="/about">About</a></div><div><a target="_blank" href="https://www.radicalxchange.org/media/blog/plurality-technology-for-collaborative-diversity-and-democracy/">Announcement &#8599;&#xFE0E;</a></div><div><a target="_blank" href="https://twitter.com/pluralitybook">Twitter &#8599;&#xFE0E;</a></div></div></div><script>if (document.querySelector('#mobile-nav > #mobile-nav-left > .toggle-overlay')) {
-    let mobileNav = document.getElementById('mobile-nav');
-    let mobileNavOverlay = document.getElementById('mobile-nav-overlay');
-    let mobileNavOverlayWrapper = document.getElementById('mobile-nav-overlay-wrapper');
-    let mobileNavLeft = document.querySelector('#mobile-nav-left > .toggle-overlay');
-    let mobileNavRight = document.querySelector('#mobile-nav-right');
-    let mobileNavRightContent = document.querySelector('#mobile-nav-right').innerHTML;
-    let mobileNavOpen = false;
+      let mobileNav = document.getElementById('mobile-nav');
+      let mobileNavOverlay = document.getElementById('mobile-nav-overlay');
+      let mobileNavOverlayWrapper = document.getElementById('mobile-nav-overlay-wrapper');
+      let mobileNavLeft = document.querySelector('#mobile-nav-left > .toggle-overlay');
+      let mobileNavRight = document.querySelector('#mobile-nav-right');
+      let mobileNavRightContent = document
+        .querySelector('#mobile-nav-right')
+        .innerHTML;
+      let mobileNavOpen = false;
 
-    mobileNavLeft.addEventListener('click', function() {
-    if (mobileNavOpen == false) {
-      mobileNavOverlayWrapper.style.display = 'flex';
-      mobileNavLeft.innerHTML = 'Close (-)';
-      mobileNavRight.innerHTML = '';
-      mobileNavOpen = true;
-    } else {
-      mobileNavOverlayWrapper.style.display = 'none';
-      mobileNavLeft.innerHTML = 'Menu (+)';
-      mobileNavRight.innerHTML = mobileNavRightContent;
-      mobileNavOpen = false;
-    }
-    }); 
-  }</script><div id="base-container"><div id="main-col"><div id="version-menu"><ol id="version-ol"><li class="version-item"><div><p class="version-title"><a href="/v/eng/">english</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/fra/">Français</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralisme ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/ger/">deutsch</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralität ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/gre/">Ελληνικά</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Πλουραλισμος ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/ita/">italiano</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/jpn/">日本語</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/kor/">한국어</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/pol/">polski</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralność ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/rus/">Русские</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Плюральность ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/chi/">華文</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ 多元宇宙 ]</span></span></div></li></ol></div></div><div id="interactive-type"></div></div><script src="/assets/js/scroll-position.js"></script></body></html>
+      mobileNavLeft.addEventListener('click', function () {
+        if (mobileNavOpen == false) {
+          mobileNavOverlayWrapper.style.display = 'flex';
+          mobileNavLeft.innerHTML = 'Close (-)';
+          mobileNavRight.innerHTML = '';
+          mobileNavOpen = true;
+        } else {
+          mobileNavOverlayWrapper.style.display = 'none';
+          mobileNavLeft.innerHTML = 'Menu (+)';
+          mobileNavRight.innerHTML = mobileNavRightContent;
+          mobileNavOpen = false;
+        }
+      });
+    }</script><div id="base-container"><div id="main-col"><div id="version-menu"><ol id="version-ol"><li class="version-item"><div><p class="version-title"><a href="/v/eng/">english</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/fra/">Français</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralisme ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/ger/">deutsch</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralität ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/gre/">Ελληνικά</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Πλουραλισμος ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/ita/">italiano</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/jpn/">日本語</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/kor/">한국어</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Plurality ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/pol/">polski</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Pluralność ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/rus/">Русские</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ Плюральность ]</span></span></div></li><li class="version-item"><div><p class="version-title"><a href="/v/chi/">華文</a></p><span class="version-meta"><span>[ 01.08.2022 – ]</span> <span>[ 多元宇宙 ]</span></span></div></li></ol></div></div><div id="interactive-type"></div></div><script src="/assets/js/scroll-position.js"></script></body></html>

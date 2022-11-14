@@ -1,7 +1,11 @@
 <div id="version-wrapper">
   <div id="version-index">
     <div id="version-index-content">{{ content | toc | safe }}</div>
-    <div id="version-index-toggle-mobile"><a>{% if translations.chapters %}{{translations.chapters}} (+){% else %}Sections (+){% endif %}</a></div>
+    <div id="version-index-toggle-mobile">
+      <a>
+        {% if translations.chapters %}{{translations.chapters}} (+){% else %}Sections (+){% endif %}
+      </a>
+    </div>
     <div id="version-index-content-mobile">{{ content | toc | safe }}</div>
   </div>
   <div id="version-content">
@@ -9,18 +13,19 @@
       <p id="version-data-title">{{title}}</p>
       <span>
         <p id="version-data-authors">{{translations.authorsLead}}</p>
-        {% if translators|length %}
+        {% if translators | length %}
           <p id="version-data-translators">
             {{translations.translatorsLead}}
             {% for translator in translators %}
-              {% if (loop.last) and (translators|length != 1) %}
-                {% if translators|length == 1 %}
+              {% if (loop.last) and (translators | length != 1) %}
+                {% if translators | length == 1 %}
                   {{translator}}
                 {% else %}
                   and {{translator}}
                 {% endif %}
               {% else %}
-                {% if (translators|length == 1) or (translators|length == 2 and loop.first) %}
+                {% if (translators | length == 1) 
+                  or(translators | length == 2 and loop.first) %}
                   {{translator}}
                 {% else %}
                   {{translator}},
@@ -38,23 +43,40 @@
 </div>
 <script>
   var versionIndexToggled = false;
-  document.querySelector('#version-index-toggle-mobile a').addEventListener("click", function() {
-    if (versionIndexToggled) {
-      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (+)";
-      document.getElementById("version-index-content-mobile").style.display = "none";
-      versionIndexToggled = false;
-    } else {
-      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (-)";
-      document.getElementById("version-index-content-mobile").style.display = "block";
-      versionIndexToggled = true;
-    }
-  });
-  
+  document
+    .querySelector('#version-index-toggle-mobile a')
+    .addEventListener("click", function () {
+      if (versionIndexToggled) {
+        document
+          .querySelector('#version-index-toggle-mobile a')
+          .innerHTML = "{{translations.chapters}} (+)";
+        document
+          .getElementById("version-index-content-mobile")
+          .style
+          .display = "none";
+        versionIndexToggled = false;
+      } else {
+        document
+          .querySelector('#version-index-toggle-mobile a')
+          .innerHTML = "{{translations.chapters}} (-)";
+        document
+          .getElementById("version-index-content-mobile")
+          .style
+          .display = "block";
+        versionIndexToggled = true;
+      }
+    });
+
   var links = document.querySelectorAll('#version-index-content-mobile a');
   for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function() {
-      document.querySelector('#version-index-toggle-mobile a').innerHTML = "{{translations.chapters}} (+)";
-      document.querySelector("#version-index-content-mobile").style.display = "none";
+    links[i].addEventListener("click", function () {
+      document
+        .querySelector('#version-index-toggle-mobile a')
+        .innerHTML = "{{translations.chapters}} (+)";
+      document
+        .querySelector("#version-index-content-mobile")
+        .style
+        .display = "none";
       versionIndexToggled = false;
     });
   }

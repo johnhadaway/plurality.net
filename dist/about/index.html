@@ -1,23 +1,25 @@
 <html><head><title>plurality.net</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Plurality: Technology for Collaborative Diversity and Democracy"><link rel="stylesheet" href="/assets/css/main.css"></head><body><div id="nav"><div id="nav-left"><a href="/" class="top-nav-item">return &#x2715;&#xFE0E;</a></div><div id="nav-centre"></div><div id="nav-right"></div></div><div id="mobile-nav" class="mobile"><div id="mobile-nav-left"><a href="/" class="top-nav-item">return &#x2715;&#xFE0E;</a></div><div id="mobile-nav-right"></div></div><script>if (document.querySelector('#mobile-nav > #mobile-nav-left > .toggle-overlay')) {
-    let mobileNav = document.getElementById('mobile-nav');
-    let mobileNavOverlay = document.getElementById('mobile-nav-overlay');
-    let mobileNavOverlayWrapper = document.getElementById('mobile-nav-overlay-wrapper');
-    let mobileNavLeft = document.querySelector('#mobile-nav-left > .toggle-overlay');
-    let mobileNavRight = document.querySelector('#mobile-nav-right');
-    let mobileNavRightContent = document.querySelector('#mobile-nav-right').innerHTML;
-    let mobileNavOpen = false;
+      let mobileNav = document.getElementById('mobile-nav');
+      let mobileNavOverlay = document.getElementById('mobile-nav-overlay');
+      let mobileNavOverlayWrapper = document.getElementById('mobile-nav-overlay-wrapper');
+      let mobileNavLeft = document.querySelector('#mobile-nav-left > .toggle-overlay');
+      let mobileNavRight = document.querySelector('#mobile-nav-right');
+      let mobileNavRightContent = document
+        .querySelector('#mobile-nav-right')
+        .innerHTML;
+      let mobileNavOpen = false;
 
-    mobileNavLeft.addEventListener('click', function() {
-    if (mobileNavOpen == false) {
-      mobileNavOverlayWrapper.style.display = 'flex';
-      mobileNavLeft.innerHTML = 'Close (-)';
-      mobileNavRight.innerHTML = '';
-      mobileNavOpen = true;
-    } else {
-      mobileNavOverlayWrapper.style.display = 'none';
-      mobileNavLeft.innerHTML = 'Menu (+)';
-      mobileNavRight.innerHTML = mobileNavRightContent;
-      mobileNavOpen = false;
-    }
-    }); 
-  }</script><div id="base-container"><div id="main-col"><div id="about-wrapper"><div id="about-content"><div id="plurality-logo"><span id="plurality-logo-text"></span></div></div></div></div></div><script src="/assets/js/interactive-logo.js"></script><script src="/assets/js/light-dark-mode.js"></script></body></html>
+      mobileNavLeft.addEventListener('click', function () {
+        if (mobileNavOpen == false) {
+          mobileNavOverlayWrapper.style.display = 'flex';
+          mobileNavLeft.innerHTML = 'Close (-)';
+          mobileNavRight.innerHTML = '';
+          mobileNavOpen = true;
+        } else {
+          mobileNavOverlayWrapper.style.display = 'none';
+          mobileNavLeft.innerHTML = 'Menu (+)';
+          mobileNavRight.innerHTML = mobileNavRightContent;
+          mobileNavOpen = false;
+        }
+      });
+    }</script><div id="base-container"><div id="main-col"><div id="about-wrapper"><div id="about-content"><div id="plurality-logo"><span id="plurality-logo-text"></span></div></div></div></div></div><script src="/assets/js/interactive-logo.js"></script><script src="/assets/js/light-dark-mode.js"></script></body></html>

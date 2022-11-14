@@ -2,7 +2,10 @@
 
   <head>
     {% block headerContent -%}
-      <title>{{ site.name }}{% if title %} | {{ title }}{% endif %}</title>
+      <title>{{ site.name }}
+        {% if title %} | {{ title }}
+        {% endif %}
+      </title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="{% if description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -18,10 +21,9 @@
         {% block mainColContent %}{% endblock %}
       </div>
       {% block extraneousContent %}{% endblock %}
-    </div>  
+    </div>
     {%- block footer -%}{%- endblock -%}
     {% block footerScripts -%}{%- endblock %}
   </body>
 
 </html>
-

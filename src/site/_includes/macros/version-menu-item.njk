@@ -1,13 +1,17 @@
-{% macro versionMenuItem(githubLink, dayStarted, yearStarted, monthStarted, 
-language, contributeTranslated, pluralityTranslated,
-pageTitle, pageUrl) %}
+{% macro versionMenuItem(githubLink, dayStarted, yearStarted, monthStarted, language, contributeTranslated, pluralityTranslated, pageTitle, pageUrl) %}
 
   <div>
-    <p class="version-title"><a href="{{ pageUrl }}">{{ language }}</a></p>
+    <p class="version-title">
+      <a href="{{ pageUrl }}">{{ language }}</a>
+    </p>
     <span class="version-meta">
-      {% if dayStarted %}<span>[ {{ dayStarted }}.{{ monthStarted }}.{{ yearStarted }} – ]</span>{% endif %}
-      {% if pluralityTranslated %}<span>[ {{ pluralityTranslated }} ]</span>{% endif %}
-      {% if githubLink %}<span><a href="{{ githubLink }}">{{ contributeTranslated }} &#8599;&#xFE0E;</a></span>{% endif %}
+      {% if dayStarted %}
+        <span>[ {{ dayStarted }}.{{ monthStarted }}.{{ yearStarted }} – ]</span>{% endif %}
+      {% if pluralityTranslated %}
+        <span>[ {{ pluralityTranslated }} ]</span>{% endif %}
+      {% if githubLink %}
+        <span>
+          <a href="{{ githubLink }}">{{ contributeTranslated }} &#8599;&#xFE0E;</a></span>{% endif %}
     </span>
   </div>
 
