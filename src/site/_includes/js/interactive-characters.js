@@ -48,15 +48,23 @@ const interactiveTypeBlack = (p) => {
     }
   }
 
-  p.mouseWheel = function(event) {
-    if (event.delta > 0 && mutationRange[0] < 0) {
+  p.mouseMoved = function(event) {
+    console.log(event);
+    mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
+    gridSize += 0.1;
+    if (mutationRange[0] > 0) {
+      mutationRange = [0, 0];
+      gridSize = 0;
+    }
+
+    /*if (event.delta > 0 && mutationRange[0] < 0) {
       mutationRange = [mutationRange[0] + 1, mutationRange[1] - 1];
       gridSize += 0.1;
     } 
     if (event.delta < 0 && gridSize > 1 && mutationRange[0] > initialMutationLowerBound) {
       mutationRange = [mutationRange[0] - 1, mutationRange[1] + 1];
       gridSize -= 0.1;
-    }
+    }*/
   }
 
   p.windowResized = function() {
